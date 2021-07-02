@@ -80,6 +80,9 @@ public class AgentRegistrationPage {
 		companyName.sendKeys(company);
 		panNumber.sendKeys(pan);
 		radioYes.click();
-		signUp.click();
+		//signUp.click();
+	}
+	public String charRemoveAt(String str, int p) {
+		return str.substring(0, p) + str.substring(p + 1);
 	}
 }

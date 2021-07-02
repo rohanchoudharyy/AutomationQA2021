@@ -90,6 +90,7 @@ public class BaseTest {
 
 		if (result.getStatus() == ITestResult.FAILURE) {
 			String screenshotPath = ScreenShots.takeScreenShot(driver, result.getName());
+			screenshotPath=screenshotPath.substring(1);
 			System.out.print(screenshotPath);
 			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath));
 			extentTest.log(LogStatus.FAIL, "ERROR DESCRIPTION : " + result.getThrowable());	

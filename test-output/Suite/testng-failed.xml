@@ -6,34 +6,42 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.ManageBookingTest">
+      <class name="tests.AgentRegistrationTest">
         <methods>
-          <include name="InvalidchangeTravelDate"/>
-          <include name="InvalidShowMyTicket"/>
+          <include name="InvalidAgentRegistrationTest"/>
           <include name="closeBrowser"/>
           <include name="endReport"/>
-          <include name="InvalidCancelTicket"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="InvalidEmailSms"/>
-          <include name="setExtent"/>
-        </methods>
-      </class> <!-- tests.ManageBookingTest -->
-      <class name="tests.LoginTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="ValidLogin"/>
-          <include name="endReport"/>
-          <include name="InvalidLogin"/>
           <include name="attachScreenShot"/>
           <include name="Logger"/>
           <include name="openBrowser"/>
           <include name="intializeWebdriver"/>
           <include name="setExtent"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.AgentRegistrationTest -->
+      <class name="tests.AppLinkMobileTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="endReport"/>
+          <include name="attachScreenShot"/>
+          <include name="Logger"/>
+          <include name="openBrowser"/>
+          <include name="ValidMobileAppLink"/>
+          <include name="intializeWebdriver"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- tests.AppLinkMobileTest -->
+      <class name="tests.BusHireTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="endReport"/>
+          <include name="attachScreenShot"/>
+          <include name="Logger"/>
+          <include name="openBrowser"/>
+          <include name="intializeWebdriver"/>
+          <include name="busHire"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- tests.BusHireTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
