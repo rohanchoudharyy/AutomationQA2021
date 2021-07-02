@@ -1,0 +1,2410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="7" failed="11" ignored="26" total="51" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="286983" started-at="2021-07-01T21:15:15Z" finished-at="2021-07-01T21:20:02Z">
+    <groups>
+      <group name="mobLink">
+        <method signature="AppLinkMobileTest.InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="InvalidMobileAppLink" class="tests.AppLinkMobileTest"/>
+        <method signature="AppLinkMobileTest.ValidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="ValidMobileAppLink" class="tests.AppLinkMobileTest"/>
+      </group> <!-- mobLink -->
+      <group name="agent">
+        <method signature="AgentRegistrationTest.InvalidAgentRegistrationTest()[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="InvalidAgentRegistrationTest" class="tests.AgentRegistrationTest"/>
+      </group> <!-- agent -->
+      <group name="career">
+        <method signature="CareerPageTest.careerHiristLink()[pri:0, instance:tests.CareerPageTest@27efef64]" name="careerHiristLink" class="tests.CareerPageTest"/>
+        <method signature="CareerPageTest.careerLinkedIn()[pri:0, instance:tests.CareerPageTest@27efef64]" name="careerLinkedIn" class="tests.CareerPageTest"/>
+      </group> <!-- career -->
+      <group name="rPool">
+        <method signature="RPoolAppDownloadTest.androidAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="androidAppLink" class="tests.RPoolAppDownloadTest"/>
+        <method signature="RPoolAppDownloadTest.iosAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="iosAppLink" class="tests.RPoolAppDownloadTest"/>
+      </group> <!-- rPool -->
+      <group name="social">
+        <method signature="SocialMediaTest.fbCheck()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="fbCheck" class="tests.SocialMediaTest"/>
+        <method signature="SocialMediaTest.twitterCheck()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="twitterCheck" class="tests.SocialMediaTest"/>
+      </group> <!-- social -->
+      <group name="privacy">
+        <method signature="PrivacyLinkTest.privacyLinkTest()[pri:0, instance:tests.PrivacyLinkTest@42d80b78]" name="privacyLinkTest" class="tests.PrivacyLinkTest"/>
+      </group> <!-- privacy -->
+      <group name="global">
+        <method signature="GlobalSitesTest.ColombiaSiteTest()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="ColombiaSiteTest" class="tests.GlobalSitesTest"/>
+        <method signature="GlobalSitesTest.SingaporeSiteTest()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="SingaporeSiteTest" class="tests.GlobalSitesTest"/>
+      </group> <!-- global -->
+      <group name="login">
+        <method signature="LoginTest.InvalidLogin()[pri:0, instance:tests.LoginTest@77caeb3e]" name="InvalidLogin" class="tests.LoginTest"/>
+        <method signature="LoginTest.ValidLogin()[pri:0, instance:tests.LoginTest@77caeb3e]" name="ValidLogin" class="tests.LoginTest"/>
+      </group> <!-- login -->
+      <group name="search">
+        <method signature="HomePageSearchTest.busTicketPageMenuTest()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="busTicketPageMenuTest" class="tests.HomePageSearchTest"/>
+        <method signature="HomePageSearchTest.homePageSearchTest()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="homePageSearchTest" class="tests.HomePageSearchTest"/>
+        <method signature="HomePageSearchTest.modifySearch()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="modifySearch" class="tests.HomePageSearchTest"/>
+      </group> <!-- search -->
+      <group name="busHire">
+        <method signature="BusHireTest.busHire()[pri:0, instance:tests.BusHireTest@59f99ea]" name="busHire" class="tests.BusHireTest"/>
+      </group> <!-- busHire -->
+      <group name="contact">
+        <method signature="ContactUsTest.ContactUsPhone()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="ContactUsPhone" class="tests.ContactUsTest"/>
+        <method signature="ContactUsTest.Support()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="Support" class="tests.ContactUsTest"/>
+      </group> <!-- contact -->
+      <group name="faq">
+        <method signature="FAQTest.FaqPageTest()[pri:0, instance:tests.FAQTest@47c62251]" name="FaqPageTest" class="tests.FAQTest"/>
+      </group> <!-- faq -->
+      <group name="manage_booking">
+        <method signature="ManageBookingTest.InvalidCancelTicket()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="InvalidCancelTicket" class="tests.ManageBookingTest"/>
+        <method signature="ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="InvalidEmailSms" class="tests.ManageBookingTest"/>
+        <method signature="ManageBookingTest.InvalidShowMyTicket()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="InvalidShowMyTicket" class="tests.ManageBookingTest"/>
+        <method signature="ManageBookingTest.InvalidchangeTravelDate()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="InvalidchangeTravelDate" class="tests.ManageBookingTest"/>
+      </group> <!-- manage_booking -->
+    </groups>
+    <test name="Surefire test" duration-ms="286983" started-at="2021-07-01T21:15:15Z" finished-at="2021-07-01T21:20:02Z">
+      <class name="tests.HomePageSearchTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="intializeWebdriver" is-config="true" duration-ms="5479" started-at="2021-07-01T21:18:26Z" finished-at="2021-07-01T21:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="openBrowser" is-config="true" duration-ms="1783" started-at="2021-07-01T21:18:31Z" finished-at="2021-07-01T21:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="busTicketPageMenuTest()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="busTicketPageMenuTest" duration-ms="7194" started-at="2021-07-01T21:18:33Z" finished-at="2021-07-01T21:18:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Online Bus Tickets Booking: Book Bus Ticket and Bus Reservation -redBus India> but was:<Search Bus Tickets>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Online Bus Tickets Booking: Book Bus Ticket and Bus Reservation -redBus India> but was:<Search Bus Tickets>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at tests.HomePageSearchTest.busTicketPageMenuTest(HomePageSearchTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busTicketPageMenuTest -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:18:40Z" finished-at="2021-07-01T21:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busTicketPageMenuTest status=FAILURE method=HomePageSearchTest.busTicketPageMenuTest()[pri:0, instance:tests.HomePageSearchTest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="attachScreenShot" is-config="true" duration-ms="278" started-at="2021-07-01T21:18:40Z" finished-at="2021-07-01T21:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busTicketPageMenuTest status=FAILURE method=HomePageSearchTest.busTicketPageMenuTest()[pri:0, instance:tests.HomePageSearchTest@66a3ffec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="1549" started-at="2021-07-01T21:18:41Z" finished-at="2021-07-01T21:18:42Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 67812, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a90ee7dd-5840-48a9-bc46-3f5db2b9e495]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 67812, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a90ee7dd-5840-48a9-bc46-3f5db2b9e495
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="intializeWebdriver()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="intializeWebdriver" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="SKIP" signature="homePageSearchTest()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="homePageSearchTest" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 67812, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a90ee7dd-5840-48a9-bc46-3f5db2b9e495]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 67812, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a90ee7dd-5840-48a9-bc46-3f5db2b9e495
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSearchTest -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="openBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="SKIP" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="SKIP" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="openBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="modifySearch()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="modifySearch" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 67812, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a90ee7dd-5840-48a9-bc46-3f5db2b9e495]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 67812, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a90ee7dd-5840-48a9-bc46-3f5db2b9e495
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySearch -->
+        <test-method status="SKIP" signature="intializeWebdriver()[pri:0, instance:tests.HomePageSearchTest@66a3ffec]" name="intializeWebdriver" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+      </class> <!-- tests.HomePageSearchTest -->
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@77caeb3e]" name="intializeWebdriver" is-config="true" duration-ms="5995" started-at="2021-07-01T21:18:42Z" finished-at="2021-07-01T21:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.LoginTest@77caeb3e]" name="openBrowser" is-config="true" duration-ms="1930" started-at="2021-07-01T21:18:48Z" finished-at="2021-07-01T21:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="InvalidLogin()[pri:0, instance:tests.LoginTest@77caeb3e]" name="InvalidLogin" duration-ms="923" started-at="2021-07-01T21:18:50Z" finished-at="2021-07-01T21:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@77caeb3e]" name="Logger" is-config="true" duration-ms="2" started-at="2021-07-01T21:18:51Z" finished-at="2021-07-01T21:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=LoginTest.InvalidLogin()[pri:0, instance:tests.LoginTest@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@77caeb3e]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-01T21:18:51Z" finished-at="2021-07-01T21:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=LoginTest.InvalidLogin()[pri:0, instance:tests.LoginTest@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:tests.LoginTest@77caeb3e]" name="closeBrowser" is-config="true" duration-ms="1550" started-at="2021-07-01T21:18:51Z" finished-at="2021-07-01T21:18:53Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 68720, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fb0a5d3-c08a-4d79-b199-ddd84f7b5c6e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 68720, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fb0a5d3-c08a-4d79-b199-ddd84f7b5c6e
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="ValidLogin()[pri:0, instance:tests.LoginTest@77caeb3e]" name="ValidLogin" duration-ms="0" started-at="2021-07-01T21:18:53Z" finished-at="2021-07-01T21:18:53Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 68720, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fb0a5d3-c08a-4d79-b199-ddd84f7b5c6e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 68720, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fb0a5d3-c08a-4d79-b199-ddd84f7b5c6e
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:tests.LoginTest@77caeb3e]" name="openBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:53Z" finished-at="2021-07-01T21:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@77caeb3e]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:53Z" finished-at="2021-07-01T21:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="SKIP" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@77caeb3e]" name="intializeWebdriver" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:53Z" finished-at="2021-07-01T21:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="SKIP" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@77caeb3e]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:53Z" finished-at="2021-07-01T21:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:tests.LoginTest@77caeb3e]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:18:53Z" finished-at="2021-07-01T21:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AppLinkMobileTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="intializeWebdriver" is-config="true" duration-ms="5980" started-at="2021-07-01T21:16:05Z" finished-at="2021-07-01T21:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="openBrowser" is-config="true" duration-ms="1949" started-at="2021-07-01T21:16:11Z" finished-at="2021-07-01T21:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="InvalidMobileAppLink" duration-ms="866" started-at="2021-07-01T21:16:13Z" finished-at="2021-07-01T21:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidMobileAppLink -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:16:14Z" finished-at="2021-07-01T21:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidMobileAppLink status=SUCCESS method=AppLinkMobileTest.InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-01T21:16:14Z" finished-at="2021-07-01T21:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidMobileAppLink status=SUCCESS method=AppLinkMobileTest.InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="closeBrowser" is-config="true" duration-ms="1472" started-at="2021-07-01T21:16:14Z" finished-at="2021-07-01T21:16:15Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63592, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13e8982a-ba87-45e6-98cd-196ffc8b17c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63592, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13e8982a-ba87-45e6-98cd-196ffc8b17c3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="intializeWebdriver()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="intializeWebdriver" is-config="true" duration-ms="0" started-at="2021-07-01T21:16:15Z" finished-at="2021-07-01T21:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="openBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:16:15Z" finished-at="2021-07-01T21:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="ValidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="ValidMobileAppLink" duration-ms="0" started-at="2021-07-01T21:16:15Z" finished-at="2021-07-01T21:16:15Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63592, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13e8982a-ba87-45e6-98cd-196ffc8b17c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63592, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13e8982a-ba87-45e6-98cd-196ffc8b17c3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidMobileAppLink -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:16:15Z" finished-at="2021-07-01T21:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:16:15Z" finished-at="2021-07-01T21:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="SKIP" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AppLinkMobileTest@ae45eb6]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-01T21:16:15Z" finished-at="2021-07-01T21:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+      </class> <!-- tests.AppLinkMobileTest -->
+      <class name="tests.ManageBookingTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="intializeWebdriver" is-config="true" duration-ms="6005" started-at="2021-07-01T21:18:53Z" finished-at="2021-07-01T21:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="openBrowser" is-config="true" duration-ms="2299" started-at="2021-07-01T21:18:59Z" finished-at="2021-07-01T21:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="InvalidCancelTicket()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="InvalidCancelTicket" duration-ms="1210" started-at="2021-07-01T21:19:01Z" finished-at="2021-07-01T21:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCancelTicket -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="Logger" is-config="true" duration-ms="2" started-at="2021-07-01T21:19:02Z" finished-at="2021-07-01T21:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidCancelTicket status=SUCCESS method=ManageBookingTest.InvalidCancelTicket()[pri:0, instance:tests.ManageBookingTest@1e88b3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-01T21:19:02Z" finished-at="2021-07-01T21:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidCancelTicket status=SUCCESS method=ManageBookingTest.InvalidCancelTicket()[pri:0, instance:tests.ManageBookingTest@1e88b3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="closeBrowser" is-config="true" duration-ms="1605" started-at="2021-07-01T21:19:02Z" finished-at="2021-07-01T21:19:04Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="intializeWebdriver()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="intializeWebdriver" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="openBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="InvalidEmailSms" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidEmailSms -->
+        <test-method status="SKIP" signature="intializeWebdriver()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="intializeWebdriver" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="SKIP" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="SKIP" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="InvalidShowMyTicket()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="InvalidShowMyTicket" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidShowMyTicket -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="openBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="SKIP" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="openBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="intializeWebdriver()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="intializeWebdriver" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="SKIP" signature="InvalidchangeTravelDate()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="InvalidchangeTravelDate" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidchangeTravelDate -->
+        <test-method status="SKIP" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1e88b3c]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+      </class> <!-- tests.ManageBookingTest -->
+      <class name="tests.GlobalSitesTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="intializeWebdriver" is-config="true" duration-ms="5967" started-at="2021-07-01T21:18:05Z" finished-at="2021-07-01T21:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="openBrowser" is-config="true" duration-ms="1864" started-at="2021-07-01T21:18:11Z" finished-at="2021-07-01T21:18:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="ColombiaSiteTest()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="ColombiaSiteTest" duration-ms="978" started-at="2021-07-01T21:18:13Z" finished-at="2021-07-01T21:18:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<about:blank> but was:<https://www.redbus.co/>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<about:blank> but was:<https://www.redbus.co/>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at tests.GlobalSitesTest.ColombiaSiteTest(GlobalSitesTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ColombiaSiteTest -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:18:14Z" finished-at="2021-07-01T21:18:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ColombiaSiteTest status=FAILURE method=GlobalSitesTest.ColombiaSiteTest()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="attachScreenShot" is-config="true" duration-ms="146" started-at="2021-07-01T21:18:14Z" finished-at="2021-07-01T21:18:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ColombiaSiteTest status=FAILURE method=GlobalSitesTest.ColombiaSiteTest()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="closeBrowser" is-config="true" duration-ms="1406" started-at="2021-07-01T21:18:14Z" finished-at="2021-07-01T21:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="intializeWebdriver" is-config="true" duration-ms="5971" started-at="2021-07-01T21:18:16Z" finished-at="2021-07-01T21:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="openBrowser" is-config="true" duration-ms="1750" started-at="2021-07-01T21:18:22Z" finished-at="2021-07-01T21:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="SingaporeSiteTest()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="SingaporeSiteTest" duration-ms="955" started-at="2021-07-01T21:18:23Z" finished-at="2021-07-01T21:18:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<about:blank> but was:<https://www.redbus.sg/>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<about:blank> but was:<https://www.redbus.sg/>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at tests.GlobalSitesTest.SingaporeSiteTest(GlobalSitesTest.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingaporeSiteTest -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:18:24Z" finished-at="2021-07-01T21:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingaporeSiteTest status=FAILURE method=GlobalSitesTest.SingaporeSiteTest()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="attachScreenShot" is-config="true" duration-ms="146" started-at="2021-07-01T21:18:24Z" finished-at="2021-07-01T21:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingaporeSiteTest status=FAILURE method=GlobalSitesTest.SingaporeSiteTest()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.GlobalSitesTest@3e6fa38a]" name="closeBrowser" is-config="true" duration-ms="1414" started-at="2021-07-01T21:18:25Z" finished-at="2021-07-01T21:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.GlobalSitesTest -->
+      <class name="tests.ContactUsTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="intializeWebdriver" is-config="true" duration-ms="5972" started-at="2021-07-01T21:17:06Z" finished-at="2021-07-01T21:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="openBrowser" is-config="true" duration-ms="1988" started-at="2021-07-01T21:17:12Z" finished-at="2021-07-01T21:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ContactUsPhone()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="ContactUsPhone" duration-ms="937" started-at="2021-07-01T21:17:14Z" finished-at="2021-07-01T21:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsPhone -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:17:15Z" finished-at="2021-07-01T21:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPhone status=SUCCESS method=ContactUsTest.ContactUsPhone()[pri:0, instance:tests.ContactUsTest@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-01T21:17:15Z" finished-at="2021-07-01T21:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPhone status=SUCCESS method=ContactUsTest.ContactUsPhone()[pri:0, instance:tests.ContactUsTest@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="1525" started-at="2021-07-01T21:17:15Z" finished-at="2021-07-01T21:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="intializeWebdriver" is-config="true" duration-ms="5921" started-at="2021-07-01T21:17:16Z" finished-at="2021-07-01T21:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="openBrowser" is-config="true" duration-ms="2136" started-at="2021-07-01T21:17:22Z" finished-at="2021-07-01T21:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Support()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="Support" duration-ms="8711" started-at="2021-07-01T21:17:24Z" finished-at="2021-07-01T21:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Support -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:17:33Z" finished-at="2021-07-01T21:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Support status=SUCCESS method=ContactUsTest.Support()[pri:0, instance:tests.ContactUsTest@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="attachScreenShot" is-config="true" duration-ms="1" started-at="2021-07-01T21:17:33Z" finished-at="2021-07-01T21:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Support status=SUCCESS method=ContactUsTest.Support()[pri:0, instance:tests.ContactUsTest@6f7fd0e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ContactUsTest@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="1953" started-at="2021-07-01T21:17:33Z" finished-at="2021-07-01T21:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.AgentRegistrationTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="setExtent" is-config="true" duration-ms="182" started-at="2021-07-01T21:15:14Z" finished-at="2021-07-01T21:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="intializeWebdriver" is-config="true" duration-ms="7069" started-at="2021-07-01T21:15:15Z" finished-at="2021-07-01T21:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="openBrowser" is-config="true" duration-ms="2145" started-at="2021-07-01T21:15:22Z" finished-at="2021-07-01T21:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="InvalidAgentRegistrationTest()[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="InvalidAgentRegistrationTest" duration-ms="7625" started-at="2021-07-01T21:15:24Z" finished-at="2021-07-01T21:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidAgentRegistrationTest -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="Logger" is-config="true" duration-ms="3" started-at="2021-07-01T21:15:32Z" finished-at="2021-07-01T21:15:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidAgentRegistrationTest status=SUCCESS method=AgentRegistrationTest.InvalidAgentRegistrationTest()[pri:0, instance:tests.AgentRegistrationTest@68c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="attachScreenShot" is-config="true" duration-ms="3" started-at="2021-07-01T21:15:32Z" finished-at="2021-07-01T21:15:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidAgentRegistrationTest status=SUCCESS method=AgentRegistrationTest.InvalidAgentRegistrationTest()[pri:0, instance:tests.AgentRegistrationTest@68c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="closeBrowser" is-config="true" duration-ms="41" started-at="2021-07-01T21:15:32Z" finished-at="2021-07-01T21:15:32Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Dismissed user prompt dialog: Please enter valid mobile number!: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 23904, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a61b09f-706d-4e63-9025-5f0e5c971985]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Please enter valid mobile number!: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 23904, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9a61b09f-706d-4e63-9025-5f0e5c971985
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at tests.BaseTest.closeBrowser(BaseTest.java:181)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.AgentRegistrationTest@68c4039c]" name="endReport" is-config="true" duration-ms="340" started-at="2021-07-01T21:20:02Z" finished-at="2021-07-01T21:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.AgentRegistrationTest -->
+      <class name="tests.SocialMediaTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="intializeWebdriver" is-config="true" duration-ms="5537" started-at="2021-07-01T21:19:40Z" finished-at="2021-07-01T21:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="openBrowser" is-config="true" duration-ms="1800" started-at="2021-07-01T21:19:46Z" finished-at="2021-07-01T21:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="fbCheck()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="fbCheck" duration-ms="1183" started-at="2021-07-01T21:19:48Z" finished-at="2021-07-01T21:19:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<about:blank> but was:<https://www.facebook.com/redBus.in/>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<about:blank> but was:<https://www.facebook.com/redBus.in/>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at tests.SocialMediaTest.fbCheck(SocialMediaTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbCheck -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:49Z" finished-at="2021-07-01T21:19:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbCheck status=FAILURE method=SocialMediaTest.fbCheck()[pri:0, instance:tests.SocialMediaTest@1bce4f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="attachScreenShot" is-config="true" duration-ms="113" started-at="2021-07-01T21:19:49Z" finished-at="2021-07-01T21:19:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbCheck status=FAILURE method=SocialMediaTest.fbCheck()[pri:0, instance:tests.SocialMediaTest@1bce4f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="closeBrowser" is-config="true" duration-ms="1569" started-at="2021-07-01T21:19:49Z" finished-at="2021-07-01T21:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="intializeWebdriver" is-config="true" duration-ms="6006" started-at="2021-07-01T21:19:50Z" finished-at="2021-07-01T21:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="openBrowser" is-config="true" duration-ms="2248" started-at="2021-07-01T21:19:56Z" finished-at="2021-07-01T21:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="twitterCheck()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="twitterCheck" duration-ms="1157" started-at="2021-07-01T21:19:59Z" finished-at="2021-07-01T21:20:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<about:blank> but was:<https://twitter.com/redBus_in>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<about:blank> but was:<https://twitter.com/redBus_in>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at tests.SocialMediaTest.twitterCheck(SocialMediaTest.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterCheck -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:20:00Z" finished-at="2021-07-01T21:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=twitterCheck status=FAILURE method=SocialMediaTest.twitterCheck()[pri:0, instance:tests.SocialMediaTest@1bce4f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="attachScreenShot" is-config="true" duration-ms="247" started-at="2021-07-01T21:20:00Z" finished-at="2021-07-01T21:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=twitterCheck status=FAILURE method=SocialMediaTest.twitterCheck()[pri:0, instance:tests.SocialMediaTest@1bce4f0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.SocialMediaTest@1bce4f0a]" name="closeBrowser" is-config="true" duration-ms="1497" started-at="2021-07-01T21:20:00Z" finished-at="2021-07-01T21:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SocialMediaTest -->
+      <class name="tests.FAQTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.FAQTest@47c62251]" name="intializeWebdriver" is-config="true" duration-ms="5459" started-at="2021-07-01T21:17:35Z" finished-at="2021-07-01T21:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.FAQTest@47c62251]" name="openBrowser" is-config="true" duration-ms="2144" started-at="2021-07-01T21:17:40Z" finished-at="2021-07-01T21:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="FaqPageTest()[pri:0, instance:tests.FAQTest@47c62251]" name="FaqPageTest" duration-ms="21083" started-at="2021-07-01T21:17:43Z" finished-at="2021-07-01T21:18:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //span[contains(text(),'GENERAL')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 50412, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 598e1228-8ae1-4319-857c-d2f42a1cfb9d
+*** Element info: {Using=xpath, value=//span[contains(text(),'GENERAL')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(text(),'GENERAL')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 50412, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 598e1228-8ae1-4319-857c-d2f42a1cfb9d
+*** Element info: {Using=xpath, value=//span[contains(text(),'GENERAL')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at pages.FAQPage.general(FAQPage.java:53)
+at tests.FAQTest.FaqPageTest(FAQTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FaqPageTest -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.FAQTest@47c62251]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:18:04Z" finished-at="2021-07-01T21:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FaqPageTest status=FAILURE method=FAQTest.FaqPageTest()[pri:0, instance:tests.FAQTest@47c62251] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.FAQTest@47c62251]" name="attachScreenShot" is-config="true" duration-ms="239" started-at="2021-07-01T21:18:04Z" finished-at="2021-07-01T21:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FaqPageTest status=FAILURE method=FAQTest.FaqPageTest()[pri:0, instance:tests.FAQTest@47c62251] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.FAQTest@47c62251]" name="closeBrowser" is-config="true" duration-ms="1568" started-at="2021-07-01T21:18:04Z" finished-at="2021-07-01T21:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.FAQTest -->
+      <class name="tests.PrivacyLinkTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.PrivacyLinkTest@42d80b78]" name="intializeWebdriver" is-config="true" duration-ms="6014" started-at="2021-07-01T21:19:04Z" finished-at="2021-07-01T21:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.PrivacyLinkTest@42d80b78]" name="openBrowser" is-config="true" duration-ms="2148" started-at="2021-07-01T21:19:10Z" finished-at="2021-07-01T21:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="privacyLinkTest()[pri:0, instance:tests.PrivacyLinkTest@42d80b78]" name="privacyLinkTest" duration-ms="1612" started-at="2021-07-01T21:19:12Z" finished-at="2021-07-01T21:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacyLinkTest -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.PrivacyLinkTest@42d80b78]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:19:14Z" finished-at="2021-07-01T21:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=privacyLinkTest status=SUCCESS method=PrivacyLinkTest.privacyLinkTest()[pri:0, instance:tests.PrivacyLinkTest@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.PrivacyLinkTest@42d80b78]" name="attachScreenShot" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:14Z" finished-at="2021-07-01T21:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=privacyLinkTest status=SUCCESS method=PrivacyLinkTest.privacyLinkTest()[pri:0, instance:tests.PrivacyLinkTest@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.PrivacyLinkTest@42d80b78]" name="closeBrowser" is-config="true" duration-ms="1493" started-at="2021-07-01T21:19:14Z" finished-at="2021-07-01T21:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.PrivacyLinkTest -->
+      <class name="tests.RPoolAppDownloadTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="intializeWebdriver" is-config="true" duration-ms="6445" started-at="2021-07-01T21:19:15Z" finished-at="2021-07-01T21:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="openBrowser" is-config="true" duration-ms="2151" started-at="2021-07-01T21:19:22Z" finished-at="2021-07-01T21:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="androidAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="androidAppLink" duration-ms="2533" started-at="2021-07-01T21:19:24Z" finished-at="2021-07-01T21:19:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<about:blank> but was:<https://play.google.com/store/apps/details?id=in.redbus.android&amp;hl=en>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<about:blank> but was:<https://play.google.com/store/apps/details?id=in.redbus.android&amp;hl=en>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at tests.RPoolAppDownloadTest.androidAppLink(RPoolAppDownloadTest.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidAppLink -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="Logger" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:26Z" finished-at="2021-07-01T21:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=androidAppLink status=FAILURE method=RPoolAppDownloadTest.androidAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="attachScreenShot" is-config="true" duration-ms="206" started-at="2021-07-01T21:19:26Z" finished-at="2021-07-01T21:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=androidAppLink status=FAILURE method=RPoolAppDownloadTest.androidAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="1722" started-at="2021-07-01T21:19:26Z" finished-at="2021-07-01T21:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="intializeWebdriver" is-config="true" duration-ms="6528" started-at="2021-07-01T21:19:28Z" finished-at="2021-07-01T21:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="openBrowser" is-config="true" duration-ms="2222" started-at="2021-07-01T21:19:35Z" finished-at="2021-07-01T21:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="iosAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="iosAppLink" duration-ms="3252" started-at="2021-07-01T21:19:37Z" finished-at="2021-07-01T21:19:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<about:blank> but was:<https://apps.apple.com/in/app/redbus/id733712604>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<about:blank> but was:<https://apps.apple.com/in/app/redbus/id733712604>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at tests.RPoolAppDownloadTest.iosAppLink(RPoolAppDownloadTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosAppLink -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="Logger" is-config="true" duration-ms="3" started-at="2021-07-01T21:19:40Z" finished-at="2021-07-01T21:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iosAppLink status=FAILURE method=RPoolAppDownloadTest.iosAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="FAIL" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="attachScreenShot" is-config="true" duration-ms="110" started-at="2021-07-01T21:19:40Z" finished-at="2021-07-01T21:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iosAppLink status=FAILURE method=RPoolAppDownloadTest.iosAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[[Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62588, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0085109a-afa6-4115-a08b-542888a96d00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: [Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62588, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0085109a-afa6-4115-a08b-542888a96d00
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at util.ScreenShots.takeScreenShot(ScreenShots.java:18)
+at tests.BaseTest.attachScreenShot(BaseTest.java:92)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:tests.RPoolAppDownloadTest@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-01T21:19:40Z" finished-at="2021-07-01T21:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.RPoolAppDownloadTest -->
+      <class name="tests.BusHireTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.BusHireTest@59f99ea]" name="intializeWebdriver" is-config="true" duration-ms="6113" started-at="2021-07-01T21:15:32Z" finished-at="2021-07-01T21:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.BusHireTest@59f99ea]" name="openBrowser" is-config="true" duration-ms="1955" started-at="2021-07-01T21:15:38Z" finished-at="2021-07-01T21:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="busHire()[pri:0, instance:tests.BusHireTest@59f99ea]" name="busHire" duration-ms="23078" started-at="2021-07-01T21:15:40Z" finished-at="2021-07-01T21:16:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //body/div[@id='app']/div[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62716, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ddef2870-c4af-4a49-8ccb-244a00d47ecc
+*** Element info: {Using=xpath, value=//body/div[@id='app']/div[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //body/div[@id='app']/div[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62716, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ddef2870-c4af-4a49-8ccb-244a00d47ecc
+*** Element info: {Using=xpath, value=//body/div[@id='app']/div[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:891)
+at pages.BusHirePage.outstation(BusHirePage.java:32)
+at tests.BusHireTest.busHire(BusHireTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busHire -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.BusHireTest@59f99ea]" name="Logger" is-config="true" duration-ms="2" started-at="2021-07-01T21:16:03Z" finished-at="2021-07-01T21:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busHire status=FAILURE method=BusHireTest.busHire()[pri:0, instance:tests.BusHireTest@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.BusHireTest@59f99ea]" name="attachScreenShot" is-config="true" duration-ms="496" started-at="2021-07-01T21:16:03Z" finished-at="2021-07-01T21:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busHire status=FAILURE method=BusHireTest.busHire()[pri:0, instance:tests.BusHireTest@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:tests.BusHireTest@59f99ea]" name="closeBrowser" is-config="true" duration-ms="1975" started-at="2021-07-01T21:16:03Z" finished-at="2021-07-01T21:16:05Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62716, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ddef2870-c4af-4a49-8ccb-244a00d47ecc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62716, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ddef2870-c4af-4a49-8ccb-244a00d47ecc
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at tests.BaseTest.closeBrowser(BaseTest.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.BusHireTest -->
+      <class name="tests.CareerPageTest">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.CareerPageTest@27efef64]" name="intializeWebdriver" is-config="true" duration-ms="5932" started-at="2021-07-01T21:16:15Z" finished-at="2021-07-01T21:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.CareerPageTest@27efef64]" name="openBrowser" is-config="true" duration-ms="1934" started-at="2021-07-01T21:16:21Z" finished-at="2021-07-01T21:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="careerHiristLink()[pri:0, instance:tests.CareerPageTest@27efef64]" name="careerHiristLink" duration-ms="21102" started-at="2021-07-01T21:16:23Z" finished-at="2021-07-01T21:16:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //button[contains(text(),'Get Onboard Now')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 71172, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 612e466d-4965-42ee-acaa-2afdce380d2d
+*** Element info: {Using=xpath, value=//button[contains(text(),'Get Onboard Now')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[contains(text(),'Get Onboard Now')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 71172, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 612e466d-4965-42ee-acaa-2afdce380d2d
+*** Element info: {Using=xpath, value=//button[contains(text(),'Get Onboard Now')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at pages.CareerPage.getOnboard(CareerPage.java:55)
+at tests.CareerPageTest.careerHiristLink(CareerPageTest.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerHiristLink -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.CareerPageTest@27efef64]" name="Logger" is-config="true" duration-ms="1" started-at="2021-07-01T21:16:44Z" finished-at="2021-07-01T21:16:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careerHiristLink status=FAILURE method=CareerPageTest.careerHiristLink()[pri:0, instance:tests.CareerPageTest@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.CareerPageTest@27efef64]" name="attachScreenShot" is-config="true" duration-ms="376" started-at="2021-07-01T21:16:44Z" finished-at="2021-07-01T21:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careerHiristLink status=FAILURE method=CareerPageTest.careerHiristLink()[pri:0, instance:tests.CareerPageTest@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.CareerPageTest@27efef64]" name="closeBrowser" is-config="true" duration-ms="1644" started-at="2021-07-01T21:16:45Z" finished-at="2021-07-01T21:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:tests.CareerPageTest@27efef64]" name="intializeWebdriver" is-config="true" duration-ms="5478" started-at="2021-07-01T21:16:46Z" finished-at="2021-07-01T21:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebdriver -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.CareerPageTest@27efef64]" name="openBrowser" is-config="true" duration-ms="2082" started-at="2021-07-01T21:16:52Z" finished-at="2021-07-01T21:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="careerLinkedIn()[pri:0, instance:tests.CareerPageTest@27efef64]" name="careerLinkedIn" duration-ms="9549" started-at="2021-07-01T21:16:54Z" finished-at="2021-07-01T21:17:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at tests.CareerPageTest.careerLinkedIn(CareerPageTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerLinkedIn -->
+        <test-method status="PASS" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.CareerPageTest@27efef64]" name="Logger" is-config="true" duration-ms="3" started-at="2021-07-01T21:17:04Z" finished-at="2021-07-01T21:17:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careerLinkedIn status=FAILURE method=CareerPageTest.careerLinkedIn()[pri:0, instance:tests.CareerPageTest@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.CareerPageTest@27efef64]" name="attachScreenShot" is-config="true" duration-ms="221" started-at="2021-07-01T21:17:04Z" finished-at="2021-07-01T21:17:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careerLinkedIn status=FAILURE method=CareerPageTest.careerLinkedIn()[pri:0, instance:tests.CareerPageTest@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.CareerPageTest@27efef64]" name="closeBrowser" is-config="true" duration-ms="1955" started-at="2021-07-01T21:17:04Z" finished-at="2021-07-01T21:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.CareerPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
