@@ -5,8 +5,8 @@ pages\CareerPage.class
 pages\HomePage.class
 pages\GlobalSites.class
 pages\PrivacyPage.class
-helper\Calender.class
 pages\FAQPage.class
 pages\AgentRegistrationPage.class
 pages\ContactUsPage.class
 pages\RPoolPage.class
+helper\Calendar.class
