@@ -10,8 +10,7 @@ import pages.GlobalSites;
 public class GlobalSitesTest extends BaseTest {
 
 	@Test(groups = { "global" })
-	public void SingaporeSiteTest() throws Exception {
-		extentTest = extent.startTest("Singapore Global Site Test");
+	public void SingaporeSite() throws Exception {
 		GlobalSites site = new GlobalSites(driver);
 		site.clickSingapore();
 		new WebDriverWait(driver, 20).until(ExpectedConditions.urlToBe("https://www.redbus.sg/"));
@@ -19,8 +18,7 @@ public class GlobalSitesTest extends BaseTest {
 	}
 
 	@Test(groups = { "global" })
-	public void ColombiaSiteTest() throws Exception {
-		extentTest = extent.startTest("Colombia Global Site Test");
+	public void ColombiaSite() throws Exception {
 		GlobalSites site = new GlobalSites(driver);
 		site.clickColombia();
 		new WebDriverWait(driver, 20).until(ExpectedConditions.urlToBe("https://www.redbus.co/"));

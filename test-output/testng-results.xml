@@ -1,62 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-04T12:23:59Z" name="Default suite" finished-at="2021-07-04T12:24:07Z" duration-ms="7942">
+  <suite started-at="2021-07-04T17:36:18Z" name="Default suite" finished-at="2021-07-04T17:36:32Z" duration-ms="14064">
     <groups>
-      <group name="login">
-        <method signature="LoginTest.ValidLogin()[pri:0, instance:tests.LoginTest@6b88ca8c]" name="ValidLogin" class="tests.LoginTest"/>
-      </group> <!-- login -->
+      <group name="manage_booking">
+        <method signature="ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@4426bff1]" name="InvalidEmailSms" class="tests.ManageBookingTest"/>
+      </group> <!-- manage_booking -->
     </groups>
-    <test started-at="2021-07-04T12:23:59Z" name="Default test" finished-at="2021-07-04T12:24:07Z" duration-ms="7942">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:tests.LoginTest@6b88ca8c]" started-at="2021-07-04T12:23:59Z" name="setExtent" finished-at="2021-07-04T12:23:59Z" duration-ms="100" status="PASS">
+    <test started-at="2021-07-04T17:36:18Z" name="Default test" finished-at="2021-07-04T17:36:32Z" duration-ms="14064">
+      <class name="tests.ManageBookingTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:18Z" name="setExtent" finished-at="2021-07-04T17:36:18Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="intializeWebdriver()[pri:0, instance:tests.LoginTest@6b88ca8c]" started-at="2021-07-04T12:23:59Z" name="intializeWebdriver" finished-at="2021-07-04T12:24:01Z" duration-ms="1504" status="PASS">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:18Z" name="initWebDriver" finished-at="2021-07-04T17:36:23Z" duration-ms="4363" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- intializeWebdriver -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.LoginTest@6b88ca8c]" started-at="2021-07-04T12:24:01Z" name="openBrowser" finished-at="2021-07-04T12:24:03Z" duration-ms="2546" status="PASS">
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:23Z" name="openBrowser" finished-at="2021-07-04T17:36:25Z" duration-ms="2676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="ValidLogin()[pri:0, instance:tests.LoginTest@6b88ca8c]" started-at="2021-07-04T12:24:03Z" name="ValidLogin" finished-at="2021-07-04T12:24:06Z" duration-ms="3089" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidLogin -->
-        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6b88ca8c]" started-at="2021-07-04T12:24:06Z" name="Logger" finished-at="2021-07-04T12:24:06Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:25Z" name="startTest" finished-at="2021-07-04T17:36:25Z" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidLogin status=SUCCESS method=LoginTest.ValidLogin()[pri:0, instance:tests.LoginTest@6b88ca8c] output={null}]]]>
+                <![CDATA[public void tests.ManageBookingTest.InvalidEmailSms() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:25Z" name="InvalidEmailSms" finished-at="2021-07-04T17:36:30Z" duration-ms="4477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidEmailSms -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:30Z" name="Logger" finished-at="2021-07-04T17:36:30Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidEmailSms status=SUCCESS method=ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@4426bff1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logger -->
-        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6b88ca8c]" started-at="2021-07-04T12:24:06Z" name="attachScreenShot" finished-at="2021-07-04T12:24:06Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:30Z" name="attachScreenShot" finished-at="2021-07-04T17:36:30Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidLogin status=SUCCESS method=LoginTest.ValidLogin()[pri:0, instance:tests.LoginTest@6b88ca8c] output={null}]]]>
+                <![CDATA[[TestResult name=InvalidEmailSms status=SUCCESS method=ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@4426bff1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenShot -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@6b88ca8c]" started-at="2021-07-04T12:24:06Z" name="closeBrowser" finished-at="2021-07-04T12:24:07Z" duration-ms="772" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:30Z" name="closeBrowser" finished-at="2021-07-04T17:36:32Z" duration-ms="2514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.LoginTest@6b88ca8c]" started-at="2021-07-04T12:24:07Z" name="endReport" finished-at="2021-07-04T12:24:07Z" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:32Z" name="endReport" finished-at="2021-07-04T17:36:33Z" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.ManageBookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

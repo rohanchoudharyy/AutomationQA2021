@@ -9,7 +9,6 @@ import pages.RPoolPage;
 public class RPoolAppDownloadTest extends BaseTest{
 	@Test(groups = { "rPool" })
 	public void androidAppLink() throws Exception {
-		extentTest = extent.startTest("androidAppLink Test");
 		RPoolPage pool = new RPoolPage(driver);
 		pool.rPoolClick();
 		pool.android();
@@ -17,7 +16,6 @@ public class RPoolAppDownloadTest extends BaseTest{
 	}
 	@Test(groups = { "rPool" })
 	public void iosAppLink() throws Exception {
-		extentTest = extent.startTest("iosAppLink Test");
 		RPoolPage pool = new RPoolPage(driver);
 		pool.rPoolClick();
 		pool.ios();

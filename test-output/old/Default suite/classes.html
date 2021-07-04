@@ -4,20 +4,30 @@
 <th>Method name</th>
 <th>Groups</th>
 </tr><tr>
-<td>tests.LoginTest</td>
+<td>tests.ManageBookingTest</td>
 <td>&nbsp;</td><td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@Test</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>ValidLogin</td>
-<td>login </td>
+<td>InvalidCancelTicket</td>
+<td>manage_booking </td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>InvalidLogin</td>
-<td>login </td>
+<td>InvalidEmailSms</td>
+<td>manage_booking </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>InvalidchangeTravelDate</td>
+<td>manage_booking </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>InvalidShowMyTicket</td>
+<td>manage_booking </td>
 </tr>
 <tr>
 <td align='center' colspan='3'>@BeforeClass</td>
@@ -27,7 +37,7 @@
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>intializeWebdriver</td>
+<td>initWebDriver</td>
 <td>pre base </td>
 </tr>
 <tr>
@@ -35,6 +45,10 @@
 <td>openBrowser</td>
 <td>pre base </td>
 </tr>
+<tr>
+<td>&nbsp;</td>
+<td>startTest</td>
+<td>&nbsp;</td></tr>
 <tr>
 <td align='center' colspan='3'>@AfterMethod</td>
 </tr>

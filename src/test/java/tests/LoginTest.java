@@ -14,7 +14,7 @@ public class LoginTest extends BaseTest {
 		String mob = excel.getCellData("MobileAppLinkmobile", "mobileValid", 2);
 		mob = mob.substring(0, mob.length() - 2);
 		mob = mobLink.charRemoveAt(mob, 1);
-		extentTest = extent.startTest("Valid Login Test");
+
 		LoginPage login = new LoginPage(driver);
 		login.clickSignIn();
 		login.validSignIn(mob);
@@ -26,7 +26,7 @@ public class LoginTest extends BaseTest {
 		ExcelDataFetch excel = new ExcelDataFetch();
 		String mob = excel.getCellData("MobileAppLinkmobile", "mobileInvalid", 2);
 		mob = mob.substring(0, mob.length() - 2);
-		extentTest = extent.startTest("Valid Login Test");
+
 		LoginPage login = new LoginPage(driver);
 		login.clickSignIn();
 		login.validSignIn(mob);

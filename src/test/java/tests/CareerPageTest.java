@@ -12,7 +12,6 @@ public class CareerPageTest extends BaseTest {
 
 	@Test(groups = { "career" })
 	public void careerHiristLink() throws Exception {
-		extentTest = extent.startTest("Career hirist Test");
 		CareerPage career = new CareerPage(driver);
 		career.careerClick();
 		career.getOnboard();
@@ -23,7 +22,6 @@ public class CareerPageTest extends BaseTest {
 
 	@Test(groups = { "career" })
 	public void careerLinkedIn() throws Exception {
-		extentTest = extent.startTest("Career linkedin Test");
 		CareerPage career = new CareerPage(driver);
 		career.careerClick();
 		career.getOnboard();

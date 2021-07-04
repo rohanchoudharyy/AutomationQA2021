@@ -14,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import helper.Calender;
+import helper.Calendar;
 
 public class HomePage {
 
@@ -57,7 +57,7 @@ public class HomePage {
 	}
 
 	public void calSelect(String year, String month, String day) throws ParseException {
-		Calender.selectDate(datePicker, year, month, day, driver);
+		Calendar.selectDate(datePicker, year, month, day, driver);
 	}
 
 	public void clickSearch() throws InterruptedException {
@@ -195,6 +195,7 @@ public class HomePage {
 				driver.switchTo().window(actual);
 			}
 		}
+		wait.until(ExpectedConditions.titleContains("Facebook"));
 	}
 
 	public void twitterClick() {
@@ -214,5 +215,8 @@ public class HomePage {
 				driver.switchTo().window(actual);
 			}
 		}
+		WebElement follow = wait
+				.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@data-testid='19583531-follow']")));
+		follow.click();
 	}
 }

@@ -15,7 +15,6 @@ public class AppLinkMobileTest extends BaseTest {
 		String mob = excel.getCellData("MobileAppLinkmobile", "mobileInvalid", 2);
 		mob = mob.substring(0, mob.length() - 2);
 		
-		extentTest = extent.startTest("Invalid Mobile app link Test");
 		HomePage mobLink = new HomePage(driver);
 		mobLink.sendAppLink(mob);
 		AssertJUnit.assertEquals(mobLink.errorInvalidMob.getText(), "Invalid Mobile No");
@@ -30,7 +29,6 @@ public class AppLinkMobileTest extends BaseTest {
 		mob = mob.substring(0, mob.length() - 2);
 		mob = mobLink.charRemoveAt(mob, 1);
 		
-		extentTest = extent.startTest("Valid Mobile app link Test");
 		mobLink.sendAppLink(mob);
 		//AssertJUnit.assertEquals(mobLink.validMobMsg.getText(), "Sorry ! please try again. We are facing issues in sending SMS");
 	}

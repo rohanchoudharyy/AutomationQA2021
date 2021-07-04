@@ -2,6 +2,7 @@ tests\AppLinkMobileTest.class
 tests\AgentRegistrationTest.class
 tests\CareerPageTest.class
 util\ExcelDataFetch.class
+util\WebDriverContorl.class
 tests\FAQTest.class
 tests\GlobalSitesTest.class
 tests\HomePageSearchTest.class

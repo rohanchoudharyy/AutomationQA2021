@@ -8,8 +8,7 @@ import pages.PrivacyPage;
 
 public class PrivacyLinkTest extends BaseTest {
 	@Test(groups = { "privacy" })
-	public void privacyLinkTest() throws Exception {
-		extentTest = extent.startTest("privacy Test");
+	public void privacyLink() throws Exception {
 		PrivacyPage privacy = new PrivacyPage(driver);
 		privacy.clickPrivacy();
 		AssertJUnit.assertEquals(privacy.privacyCheck.getText(), "Privacy Policy");

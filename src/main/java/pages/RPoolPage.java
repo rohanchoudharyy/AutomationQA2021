@@ -63,6 +63,8 @@ public class RPoolPage {
 				driver.switchTo().window(actual);
 			}
 		}
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.titleContains("redBus"));
 	}
 	public void ios() {
 		appleStore.click();
@@ -75,5 +77,7 @@ public class RPoolPage {
 				driver.switchTo().window(actual);
 			}
 		}
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.titleContains("redBus"));
 	}
 }

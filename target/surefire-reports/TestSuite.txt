@@ -1,38 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 44, Failures: 4, Errors: 0, Skipped: 20, Time elapsed: 310.467 s <<< FAILURE! - in TestSuite
-SingaporeSiteTest(tests.GlobalSitesTest)  Time elapsed: 20.745 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for url to be "https://www.redbus.sg/". Current url: "https://www.redbus.in/" (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ROHANC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c3735c4cc3321dfe4b128b0341bbd2c0
-	at tests.GlobalSitesTest.SingaporeSiteTest(GlobalSitesTest.java:17)
-
-ValidMobileAppLink(tests.AppLinkMobileTest)  Time elapsed: 1.182 s  <<< FAILURE!
-java.lang.AssertionError: expected:<> but was:<Sorry ! please try again. We are facing issues in sending SMS>
-	at tests.AppLinkMobileTest.ValidMobileAppLink(AppLinkMobileTest.java:35)
-
-openBrowser(tests.HomePageSearchTest)  Time elapsed: 27.275 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 19.711
+Tests run: 26, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 370.279 s <<< FAILURE! - in TestSuite
+careerHiristLink(tests.CareerPageTest)  Time elapsed: 20.746 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Get Onboard Now')]"}
   (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ROHANCHOUDHARY1', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ROHANC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8a15ce1ee47bfeff024f727d19436493
-
-openBrowser(tests.ContactUsTest)  Time elapsed: 24.9 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 19.702
-  (Session info: chrome=91.0.4472.124)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ROHANC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 25f74d16344128460613bd4f9783573e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ROHANC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71e350c5517ac8ed1972e934db580517
+*** Element info: {Using=xpath, value=//button[contains(text(),'Get Onboard Now')]}
+	at tests.CareerPageTest.careerHiristLink(CareerPageTest.java:17)
 

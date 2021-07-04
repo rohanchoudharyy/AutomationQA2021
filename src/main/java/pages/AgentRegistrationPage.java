@@ -10,7 +10,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AgentRegistrationPage {
@@ -80,7 +79,6 @@ public class AgentRegistrationPage {
 		companyName.sendKeys(company);
 		panNumber.sendKeys(pan);
 		radioYes.click();
-		//signUp.click();
 	}
 	public String charRemoveAt(String str, int p) {
 		return str.substring(0, p) + str.substring(p + 1);

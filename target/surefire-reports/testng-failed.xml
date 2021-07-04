@@ -6,56 +6,19 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="tests.AppLinkMobileTest">
+      <class name="tests.CareerPageTest">
         <methods>
           <include name="closeBrowser"/>
           <include name="endReport"/>
+          <include name="startTest"/>
+          <include name="initWebDriver"/>
           <include name="attachScreenShot"/>
           <include name="Logger"/>
           <include name="openBrowser"/>
-          <include name="ValidMobileAppLink"/>
-          <include name="intializeWebdriver"/>
           <include name="setExtent"/>
+          <include name="careerHiristLink"/>
         </methods>
-      </class> <!-- tests.AppLinkMobileTest -->
-      <class name="tests.HomePageSearchTest">
-        <methods>
-          <include name="homePageSearchTest"/>
-          <include name="busTicketPageMenuTest"/>
-          <include name="closeBrowser"/>
-          <include name="endReport"/>
-          <include name="attachScreenShot"/>
-          <include name="modifySearch"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="setExtent"/>
-        </methods>
-      </class> <!-- tests.HomePageSearchTest -->
-      <class name="tests.GlobalSitesTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="endReport"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="setExtent"/>
-          <include name="SingaporeSiteTest"/>
-        </methods>
-      </class> <!-- tests.GlobalSitesTest -->
-      <class name="tests.ContactUsTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="endReport"/>
-          <include name="Support"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="setExtent"/>
-        </methods>
-      </class> <!-- tests.ContactUsTest -->
+      </class> <!-- tests.CareerPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -8,8 +8,7 @@ import pages.FAQPage;
 
 public class FAQTest extends BaseTest {
 	@Test(groups = { "faq" })
-	public void FaqPageTest() throws Exception {
-		extentTest = extent.startTest("ContactUS Test");
+	public void FaqPage() throws Exception {
 		FAQPage faq = new FAQPage(driver);
 		faq.clickFAQ();
 		faq.general();

@@ -83,6 +83,9 @@ public class OperatorPage {
 		
 		date.sendKeys(dateE);
 		searchBus.click();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.titleContains("Bus"));
 	}
 	
 }

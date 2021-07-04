@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Calender {
+public class Calendar {
 	
 	public static void selectDate(WebElement calendar, String year, String monthName, String day, WebDriver driver) throws ParseException
 	{
