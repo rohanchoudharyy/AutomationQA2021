@@ -1,13 +1,12 @@
+pages\OperatorPage.class
 pages\LoginPage.class
+pages\ManageBookingMenu.class
 pages\CareerPage.class
 pages\HomePage.class
 pages\GlobalSites.class
 pages\PrivacyPage.class
+helper\Calender.class
 pages\FAQPage.class
 pages\AgentRegistrationPage.class
 pages\ContactUsPage.class
-pages\OperatorPage.class
-pages\ManageBookingMenu.class
-helper\Calender.class
-pages\BusHirePage.class
 pages\RPoolPage.class

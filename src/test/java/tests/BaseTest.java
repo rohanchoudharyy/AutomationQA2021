@@ -130,12 +130,14 @@ public class BaseTest {
 
 				driver = new FirefoxDriver(options);
 				driver.manage().timeouts().pageLoadTimeout(timeout,TimeUnit.SECONDS);
+				driver.manage().window().maximize();
 
 			} else if (headless.equalsIgnoreCase("no")) {
 
 				System.setProperty(prop.getProperty("firefoxKey"), prop.getProperty("firefoxValue"));
 				driver = new FirefoxDriver();
 				driver.manage().timeouts().pageLoadTimeout(timeout,TimeUnit.SECONDS);
+				driver.manage().window().maximize();
 			}
 		}
 
@@ -149,10 +151,15 @@ public class BaseTest {
 				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36");
 				driver = new ChromeDriver(options);
 				driver.manage().timeouts().pageLoadTimeout(timeout,TimeUnit.SECONDS);
+				driver.manage().window().maximize();
 			} else if (headless.equalsIgnoreCase("no")) {
 				System.setProperty(prop.getProperty("chromeKey"), prop.getProperty("chromeValue"));
+				//ChromeOptions options = new ChromeOptions();
+				//options.addArguments("--disable-dev-shm-usage");
+				//driver = new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"), options);
 				driver = new ChromeDriver();
 				driver.manage().timeouts().pageLoadTimeout(timeout,TimeUnit.SECONDS);
+				driver.manage().window().maximize();
 			}
 		}
 		// Check if parameter passed as 'Edge'
@@ -172,14 +179,14 @@ public class BaseTest {
 	@BeforeMethod(groups = { "base","pre" })
 	public static void openBrowser() {
 		driver.get(prop.getProperty("url"));
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		logger.info("URL opened successfully.");
 	}
 
 	// function to close browser
 	@AfterMethod(groups = { "base" ,"pre"})
 	public static void closeBrowser() {
-		driver.close();
+		//driver.close();
 		driver.quit();
 		logger.info("Browser closed successfully.");
 	}

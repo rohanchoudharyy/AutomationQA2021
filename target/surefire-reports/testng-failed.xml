@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
-  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listener.MethodInterceptor"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="tests.GlobalSitesTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="endReport"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="setExtent"/>
-          <include name="ColombiaSiteTest"/>
-          <include name="SingaporeSiteTest"/>
-        </methods>
-      </class> <!-- tests.GlobalSitesTest -->
-      <class name="tests.LoginTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="ValidLogin"/>
-          <include name="endReport"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="setExtent"/>
-        </methods>
-      </class> <!-- tests.LoginTest -->
       <class name="tests.AppLinkMobileTest">
         <methods>
           <include name="closeBrowser"/>
@@ -40,33 +18,6 @@
           <include name="setExtent"/>
         </methods>
       </class> <!-- tests.AppLinkMobileTest -->
-      <class name="tests.ManageBookingTest">
-        <methods>
-          <include name="InvalidchangeTravelDate"/>
-          <include name="InvalidShowMyTicket"/>
-          <include name="closeBrowser"/>
-          <include name="endReport"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="InvalidEmailSms"/>
-          <include name="setExtent"/>
-        </methods>
-      </class> <!-- tests.ManageBookingTest -->
-      <class name="tests.SocialMediaTest">
-        <methods>
-          <include name="fbCheck"/>
-          <include name="closeBrowser"/>
-          <include name="endReport"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="setExtent"/>
-          <include name="twitterCheck"/>
-        </methods>
-      </class> <!-- tests.SocialMediaTest -->
       <class name="tests.HomePageSearchTest">
         <methods>
           <include name="homePageSearchTest"/>
@@ -81,33 +32,7 @@
           <include name="setExtent"/>
         </methods>
       </class> <!-- tests.HomePageSearchTest -->
-      <class name="tests.RPoolAppDownloadTest">
-        <methods>
-          <include name="iosAppLink"/>
-          <include name="closeBrowser"/>
-          <include name="androidAppLink"/>
-          <include name="endReport"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="setExtent"/>
-        </methods>
-      </class> <!-- tests.RPoolAppDownloadTest -->
-      <class name="tests.CareerPageTest">
-        <methods>
-          <include name="careerLinkedIn"/>
-          <include name="closeBrowser"/>
-          <include name="endReport"/>
-          <include name="attachScreenShot"/>
-          <include name="Logger"/>
-          <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
-          <include name="setExtent"/>
-          <include name="careerHiristLink"/>
-        </methods>
-      </class> <!-- tests.CareerPageTest -->
-      <class name="tests.BusHireTest">
+      <class name="tests.GlobalSitesTest">
         <methods>
           <include name="closeBrowser"/>
           <include name="endReport"/>
@@ -115,22 +40,22 @@
           <include name="Logger"/>
           <include name="openBrowser"/>
           <include name="intializeWebdriver"/>
-          <include name="busHire"/>
           <include name="setExtent"/>
+          <include name="SingaporeSiteTest"/>
         </methods>
-      </class> <!-- tests.BusHireTest -->
-      <class name="tests.FAQTest">
+      </class> <!-- tests.GlobalSitesTest -->
+      <class name="tests.ContactUsTest">
         <methods>
-          <include name="FaqPageTest"/>
           <include name="closeBrowser"/>
           <include name="endReport"/>
+          <include name="Support"/>
           <include name="attachScreenShot"/>
           <include name="Logger"/>
           <include name="openBrowser"/>
           <include name="intializeWebdriver"/>
           <include name="setExtent"/>
         </methods>
-      </class> <!-- tests.FAQTest -->
+      </class> <!-- tests.ContactUsTest -->
     </classes>
-  </test> <!-- Surefire test(failed) -->
-</suite> <!-- Failed suite [Surefire suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

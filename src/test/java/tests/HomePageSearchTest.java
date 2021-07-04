@@ -1,5 +1,7 @@
 package tests;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import pages.HomePage;
@@ -34,8 +36,10 @@ public class HomePageSearchTest extends BaseTest {
 		search.fromsend(excel.getCellData("HomePageSearch", "sourceLocation2", 2));
 		search.tosend(excel.getCellData("HomePageSearch", "Destination2", 2));
 		search.datesend(excel.getCellData("HomePageSearch", "Date", 2));
-		Thread.sleep(500);
 		search.submit();
+		//WebDriverWait wait = new WebDriverWait(driver, 15);
+		//wait.until(webDriver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete"));
+		Thread.sleep(500);
 		AssertJUnit.assertEquals(driver.getTitle(), "Search Bus Tickets");
 	}
 
@@ -47,7 +51,7 @@ public class HomePageSearchTest extends BaseTest {
 		search.clickbus();
 		search.fromsend(excel.getCellData("HomePageSearch", "sourceLocation2", 2));
 		search.tosend(excel.getCellData("HomePageSearch", "Destination2", 2));
-		search.datesend(excel.getCellData("HomePageSearch", "Date", 2));;
+		search.datesend(excel.getCellData("HomePageSearch", "Date", 2));
 		search.submit();
 		search.modifyClick();
 		search.newSourceLocation(excel.getCellData("HomePageSearch", "sourceLocation2", 2));

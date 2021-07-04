@@ -1,135 +1,38 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 68, Failures: 18, Errors: 0, Skipped: 43, Time elapsed: 288.757 s <<< FAILURE! - in TestSuite
-closeBrowser(tests.AgentRegistrationTest)  Time elapsed: 7.679 s  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: 
-Dismissed user prompt dialog: Please enter valid mobile number!: 
+Tests run: 44, Failures: 4, Errors: 0, Skipped: 20, Time elapsed: 310.467 s <<< FAILURE! - in TestSuite
+SingaporeSiteTest(tests.GlobalSitesTest)  Time elapsed: 20.745 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to be "https://www.redbus.sg/". Current url: "https://www.redbus.in/" (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 23904, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9a61b09f-706d-4e63-9025-5f0e5c971985
-
-busHire(tests.BusHireTest)  Time elapsed: 23.078 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //body/div[@id='app']/div[1]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62716, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ddef2870-c4af-4a49-8ccb-244a00d47ecc
-*** Element info: {Using=xpath, value=//body/div[@id='app']/div[1]}
-	at tests.BusHireTest.busHire(BusHireTest.java:15)
-
-closeBrowser(tests.BusHireTest)  Time elapsed: 25.552 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62716, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ddef2870-c4af-4a49-8ccb-244a00d47ecc
-
-closeBrowser(tests.AppLinkMobileTest)  Time elapsed: 2.33 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63592, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 13e8982a-ba87-45e6-98cd-196ffc8b17c3
-
-careerHiristLink(tests.CareerPageTest)  Time elapsed: 21.103 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //button[contains(text(),'Get Onboard Now')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 71172, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 612e466d-4965-42ee-acaa-2afdce380d2d
-*** Element info: {Using=xpath, value=//button[contains(text(),'Get Onboard Now')]}
-	at tests.CareerPageTest.careerHiristLink(CareerPageTest.java:16)
-
-careerLinkedIn(tests.CareerPageTest)  Time elapsed: 9.547 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at tests.CareerPageTest.careerLinkedIn(CareerPageTest.java:28)
-
-FaqPageTest(tests.FAQTest)  Time elapsed: 21.077 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //span[contains(text(),'GENERAL')]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 50412, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 598e1228-8ae1-4319-857c-d2f42a1cfb9d
-*** Element info: {Using=xpath, value=//span[contains(text(),'GENERAL')]}
-	at tests.FAQTest.FaqPageTest(FAQTest.java:15)
-
-ColombiaSiteTest(tests.GlobalSitesTest)  Time elapsed: 0.974 s  <<< FAILURE!
-java.lang.AssertionError: expected:<about:blank> but was:<https://www.redbus.co/>
-	at tests.GlobalSitesTest.ColombiaSiteTest(GlobalSitesTest.java:25)
-
-SingaporeSiteTest(tests.GlobalSitesTest)  Time elapsed: 0.952 s  <<< FAILURE!
-java.lang.AssertionError: expected:<about:blank> but was:<https://www.redbus.sg/>
+System info: host: 'ROHANCHOUDHARY1', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ROHANC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c3735c4cc3321dfe4b128b0341bbd2c0
 	at tests.GlobalSitesTest.SingaporeSiteTest(GlobalSitesTest.java:17)
 
-busTicketPageMenuTest(tests.HomePageSearchTest)  Time elapsed: 7.192 s  <<< FAILURE!
-java.lang.AssertionError: expected:<Online Bus Tickets Booking: Book Bus Ticket and Bus Reservation -redBus India> but was:<Search Bus Tickets>
-	at tests.HomePageSearchTest.busTicketPageMenuTest(HomePageSearchTest.java:39)
+ValidMobileAppLink(tests.AppLinkMobileTest)  Time elapsed: 1.182 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<Sorry ! please try again. We are facing issues in sending SMS>
+	at tests.AppLinkMobileTest.ValidMobileAppLink(AppLinkMobileTest.java:35)
 
-closeBrowser(tests.HomePageSearchTest)  Time elapsed: 9.023 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
+openBrowser(tests.HomePageSearchTest)  Time elapsed: 27.275 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 19.711
+  (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 67812, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a90ee7dd-5840-48a9-bc46-3f5db2b9e495
+System info: host: 'ROHANCHOUDHARY1', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ROHANC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a15ce1ee47bfeff024f727d19436493
 
-closeBrowser(tests.LoginTest)  Time elapsed: 2.474 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
+openBrowser(tests.ContactUsTest)  Time elapsed: 24.9 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 19.702
+  (Session info: chrome=91.0.4472.124)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 68720, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8fb0a5d3-c08a-4d79-b199-ddd84f7b5c6e
-
-closeBrowser(tests.ManageBookingTest)  Time elapsed: 2.817 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 63056, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b4aef77b-6625-4c7d-a916-91f2de612a03
-
-androidAppLink(tests.RPoolAppDownloadTest)  Time elapsed: 2.529 s  <<< FAILURE!
-java.lang.AssertionError: expected:<about:blank> but was:<https://play.google.com/store/apps/details?id=in.redbus.android&amp;hl=en>
-	at tests.RPoolAppDownloadTest.androidAppLink(RPoolAppDownloadTest.java:16)
-
-iosAppLink(tests.RPoolAppDownloadTest)  Time elapsed: 3.247 s  <<< FAILURE!
-java.lang.AssertionError: expected:<about:blank> but was:<https://apps.apple.com/in/app/redbus/id733712604>
-	at tests.RPoolAppDownloadTest.iosAppLink(RPoolAppDownloadTest.java:24)
-
-attachScreenShot(tests.RPoolAppDownloadTest)  Time elapsed: 3.364 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-[Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ROHANCHOUDHARY1', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 62588, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0085109a-afa6-4115-a08b-542888a96d00
-
-fbCheck(tests.SocialMediaTest)  Time elapsed: 1.178 s  <<< FAILURE!
-java.lang.AssertionError: expected:<about:blank> but was:<https://www.facebook.com/redBus.in/>
-	at tests.SocialMediaTest.fbCheck(SocialMediaTest.java:15)
-
-twitterCheck(tests.SocialMediaTest)  Time elapsed: 1.103 s  <<< FAILURE!
-java.lang.AssertionError: expected:<about:blank> but was:<https://twitter.com/redBus_in>
-	at tests.SocialMediaTest.twitterCheck(SocialMediaTest.java:22)
+System info: host: 'ROHANCHOUDHARY1', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ROHANC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25f74d16344128460613bd4f9783573e
 

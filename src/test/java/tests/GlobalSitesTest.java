@@ -1,11 +1,11 @@
 package tests;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import pages.GlobalSites;
-import pages.HomePage;
-import util.ExcelDataFetch;
 
 public class GlobalSitesTest extends BaseTest {
 
@@ -14,6 +14,7 @@ public class GlobalSitesTest extends BaseTest {
 		extentTest = extent.startTest("Singapore Global Site Test");
 		GlobalSites site = new GlobalSites(driver);
 		site.clickSingapore();
+		new WebDriverWait(driver, 20).until(ExpectedConditions.urlToBe("https://www.redbus.sg/"));
 		AssertJUnit.assertEquals(driver.getCurrentUrl(), "https://www.redbus.sg/");
 	}
 
@@ -22,6 +23,7 @@ public class GlobalSitesTest extends BaseTest {
 		extentTest = extent.startTest("Colombia Global Site Test");
 		GlobalSites site = new GlobalSites(driver);
 		site.clickColombia();
+		new WebDriverWait(driver, 20).until(ExpectedConditions.urlToBe("https://www.redbus.co/"));
 		AssertJUnit.assertEquals(driver.getCurrentUrl(), "https://www.redbus.co/");
 	}
 

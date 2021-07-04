@@ -1,5 +1,7 @@
 package tests;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
@@ -27,6 +29,7 @@ public class OperatorSearch extends BaseTest {
 		op.SpecificOperatorBooking();
 		op.RBTravels(excel.getCellData("Operator", "From", 2), excel.getCellData("Operator", "To", 2),
 				excel.getCellData("Operator", "Date", 2));
+		Thread.sleep(1000);		
 		AssertJUnit.assertEquals(driver.getTitle(), "Search Bus Tickets");
 	}
 }
