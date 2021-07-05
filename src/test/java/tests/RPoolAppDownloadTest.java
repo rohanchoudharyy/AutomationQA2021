@@ -7,6 +7,8 @@ import pages.FAQPage;
 import pages.RPoolPage;
 
 public class RPoolAppDownloadTest extends BaseTest{
+	
+	//To test the android app download link 
 	@Test(groups = { "rPool" })
 	public void androidAppLink() throws Exception {
 		RPoolPage pool = new RPoolPage(driver);
@@ -14,6 +16,8 @@ public class RPoolAppDownloadTest extends BaseTest{
 		pool.android();
 		AssertJUnit.assertEquals(driver.getCurrentUrl(), "https://play.google.com/store/apps/details?id=in.redbus.android&amp;hl=en");
 	}
+	
+	//To test the ios app download link
 	@Test(groups = { "rPool" })
 	public void iosAppLink() throws Exception {
 		RPoolPage pool = new RPoolPage(driver);

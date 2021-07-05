@@ -1,6 +1,6 @@
 MavenAssignmentFinal
 =======================
-This is an assignment submitted as the exit criteria for Automation Training for fresher batch 2021. This project utilies Page Object Model (POM) which is a Java Framework that provides ability to describe your web application as a hierarchy of models. This project aims to automate 20+ test cases for this [url](https://www.redbus.in/). Some cases are bound to fail for the purpose of this assignmnet. 
+This is an assignment submitted as the exit criteria for Automation Training for fresher batch 2021. This project utilies Page Object Model (POM) which is a Java Framework that provides ability to describe your web application as a hierarchy of models. This project aims to automate 20+ test cases for this [url](https://www.redbus.in/). Some cases are bound to fail for the purpose of this assignment. 
 
 Use the following steps to execute this project.
 1. Extract the zip and then place it in your workspace.
@@ -63,6 +63,7 @@ Or use runner.bat file
     ├── test-output     
     ├── data.xlsx
     ├── docker-compose.yml
+    ├── Jenkins Integration Process.docx
     ├── pom.xml
     ├── testng.xml
     ├── runner.bat
@@ -113,11 +114,15 @@ Excel.java file fetches information from the excel sheet regarding the execution
 ##tests module
 Contains all the test scenarios.
 
+##data.xlsx
+* This is the excel sheet which contains all the test data. User can change the ExecutionRequired column of the first worksheet to decide which test cases to run. 
+* 'Yes' means the test will execute and 'No' means a test won't execute.
+
 ##Jenkins  module
 * The test has been integrated with github and jenkins.
-* It can be accesed here [url](https://github.com/rohanchoudharyy/AutomationQA2021) .
 * To integrate with jenkins use : https://github.com/rohanchoudharyy/AutomationQA2021.git
 * A screenshot of the jenkins integration is present in the project directory.
+* A word file explaining all the steps for jenkins integration is present in the project directory.
 
 ##Docker  module
 Steps to set up docker:
@@ -129,9 +134,13 @@ Steps to set up docker:
 6. use the docker-compose.yml file for the next step
 7. `docker-compose -f /path/to/docker-compose.yml up -d`
 8. This makes the grid up and running. you can verify it by visiting : `http://localhost:4444/grid/console`
-9. To run the test cases on docker set, browser = chrome/firefox , headless = no and docker = true.
+9. To run the test cases on docker, set browser = chrome/firefox , headless = no and docker = true in the config.properties file.
+10. To run the test cases parallally in two browsers in docker : Use the contents of testNg_parallel_browser.xml file and comment lines 106 - 109 and uncomment lines 111 - 116 in the BaseTest.java files present in the tests module of src/test/java. A sample screenshot of running test cases parallally in two browsers is present in the project folder.
 
 ##Problems
-Sometimes the test cases would fail as it won't be locate the WebElements. Please re-run the test in such cases.
+1. Sometimes the test cases would fail as it won't be locate the WebElements. Please re-run the test in such cases.
 The project comes with a test_reports.html file, you may check the test reports before running any tests, to see how it should behave normally.
+2. I was able to run test cases parallaly in docker but when trying to run the test cases parallally in docker, there were a lot errors while running the test cases and it stops abruptly. 
+3. Test cases are failing randomly in headless mode. Thread.sleep could avoid these mistakes but I have tried not to use them unnecessarily. 
+4. There is no headless mode available for Edge
 

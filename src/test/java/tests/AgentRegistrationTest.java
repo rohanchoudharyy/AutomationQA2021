@@ -5,6 +5,8 @@ import pages.AgentRegistrationPage;
 import util.ExcelDataFetch;
 
 public class AgentRegistrationTest extends BaseTest {
+	
+	//To test the Agent registration feature
 	@Test(groups = { "agent" })
 	public void InvalidAgentRegistration() throws Exception {
 		AgentRegistrationPage agent = new AgentRegistrationPage(driver);

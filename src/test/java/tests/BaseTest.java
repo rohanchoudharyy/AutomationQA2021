@@ -12,6 +12,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -70,7 +72,7 @@ public class BaseTest {
 	@AfterSuite(groups = { "base", "pre" })
 	public void endReport() {
 		extent.flush();
-		// extent.close();
+		extent.close();
 	}
 
 	// function to capture screenshot and error description when any test fails
@@ -105,6 +107,13 @@ public class BaseTest {
 	public static void initWebDriver() throws Exception {
 		WebDriverContorl.intializeWebdriver();
 	}
+	
+	// function to initialize web driver, choose browser and headless mode
+	//@BeforeMethod(groups = { "base", "pre" })
+	//@Parameters({"Port"})
+	//public static void initWebDriver(String port) throws Exception {
+	//	WebDriverContorl.initiateDriver(port);
+	//}
 
 	// function to open browser
 	@BeforeMethod(groups = { "base", "pre" })

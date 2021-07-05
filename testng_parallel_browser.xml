@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+	<listeners>
+		<listener class-name="listener.MethodInterceptor" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="Port" value="9001" />
+		<classes>
+			<class name="tests.GlobalSitesTest" />
+			<class name="tests.PrivacyLinkTest" />
+			<class name="tests.FAQTest" />
+			<class name="tests.AppLinkMobileTest" />
+			<class name="tests.RPoolAppDownloadTest" />
+			<class name="tests.LoginTest" />
+			<class name="tests.CareerPageTest" />
+			<class name="tests.HomePageSearchTest" />
+			<class name="tests.ContactUsTest" />
+			<class name="tests.AgentRegistrationTest" />
+			<class name="tests.ManageBookingTest" />
+			<class name="tests.OperatorSearch" />
+			<class name="tests.SocialMediaTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test2">
+		<parameter name="Port" value="9002" />
+		<classes>
+			<class name="tests.GlobalSitesTest" />
+			<class name="tests.PrivacyLinkTest" />
+			<class name="tests.FAQTest" />
+			<class name="tests.AppLinkMobileTest" />
+			<class name="tests.RPoolAppDownloadTest" />
+			<class name="tests.LoginTest" />
+			<class name="tests.CareerPageTest" />
+			<class name="tests.HomePageSearchTest" />
+			<class name="tests.ContactUsTest" />
+			<class name="tests.AgentRegistrationTest" />
+			<class name="tests.ManageBookingTest" />
+			<class name="tests.OperatorSearch" />
+			<class name="tests.SocialMediaTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

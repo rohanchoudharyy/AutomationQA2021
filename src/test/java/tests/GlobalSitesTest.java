@@ -9,6 +9,7 @@ import pages.GlobalSites;
 
 public class GlobalSitesTest extends BaseTest {
 
+	//Checking the Singapore website link test
 	@Test(groups = { "global" })
 	public void SingaporeSite() throws Exception {
 		GlobalSites site = new GlobalSites(driver);
@@ -17,6 +18,7 @@ public class GlobalSitesTest extends BaseTest {
 		AssertJUnit.assertEquals(driver.getCurrentUrl(), "https://www.redbus.sg/");
 	}
 
+	//Checking the Colombia website link test
 	@Test(groups = { "global" })
 	public void ColombiaSite() throws Exception {
 		GlobalSites site = new GlobalSites(driver);

@@ -22,28 +22,28 @@ public class AgentRegistrationPage {
 
 	@FindBy(how = How.XPATH, using = "//input[@name='fullName']")
 	public WebElement nameField;
-	
+
 	@FindBy(how = How.XPATH, using = "//input[@name='email']")
 	public WebElement emailField;
-	
+
 	@FindBy(how = How.XPATH, using = "//input[@name='mobile']")
 	public WebElement mobileField;
-	
+
 	@FindBy(how = How.XPATH, using = "//input[@placeholder='Password']")
 	public WebElement password;
-	
+
 	@FindBy(how = How.XPATH, using = "//input[@placeholder='Confirm Password']")
 	public WebElement confirmPass;
-	
+
 	@FindBy(how = How.XPATH, using = "//input[@name='companyName']")
 	public WebElement companyName;
-	
+
 	@FindBy(how = How.XPATH, using = "//input[@name='panNumber']")
 	public WebElement panNumber;
-	
+
 	@FindBy(how = How.XPATH, using = "//input[@name='agent' and @value=\"Yes\"]")
 	public WebElement radioYes;
-	
+
 	@FindBy(how = How.XPATH, using = "//button[@class='sign_up']")
 	public WebElement signUp;
 
@@ -51,13 +51,13 @@ public class AgentRegistrationPage {
 		// Scroll down
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		
+
 		// Wait until element is clickable
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement singapore = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Agent Registration')]")));
 		singapore.click();
-		
+
 		// changing tabs
 		String currentHandle = driver.getWindowHandle();
 		Set<String> handles = driver.getWindowHandles();
@@ -80,6 +80,7 @@ public class AgentRegistrationPage {
 		panNumber.sendKeys(pan);
 		radioYes.click();
 	}
+
 	public String charRemoveAt(String str, int p) {
 		return str.substring(0, p) + str.substring(p + 1);
 	}

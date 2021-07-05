@@ -19,13 +19,14 @@ public class OperatorPage {
 	public OperatorPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
-		}
+	}
+
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'All Operators >')]")
 	public WebElement allOp;
-	
+
 	@FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/article[2]/div[1]/ul[1]/li[1]/a[1]")
 	public WebElement abSuper;
-	
+
 	@FindBy(how = How.XPATH, using = "//input[@id='txtSource']")
 	public WebElement from;
 	@FindBy(how = How.XPATH, using = "//input[@id='txtDestination']")
@@ -48,44 +49,45 @@ public class OperatorPage {
 				driver.switchTo().window(actual);
 			}
 		}
-		
+
 	}
+
 	public void abSuper(String fromE, String toE, String dateE) throws InterruptedException {
 		abSuper.click();
 		from.sendKeys(fromE);
 		Thread.sleep(500);
 		suggestion.click();
-		
+
 		to.sendKeys(toE);
 		Thread.sleep(500);
 		suggestion.click();
-		
+
 		date.sendKeys(dateE);
 		searchBus.click();
 	}
-	
+
 	@FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/article[1]/div[2]/ul[1]/li[19]/a[1]")
 	public WebElement S;
 	@FindBy(how = How.XPATH, using = "//body/div[@id='root']/div[1]/article[2]/div[1]/ul[1]/li[1]/a[1]")
 	public WebElement SBT;
-	
+
 	public void RBTravels(String fromE, String toE, String dateE) throws InterruptedException {
 		S.click();
 		SBT.click();
-		
+
 		from.sendKeys(fromE);
 		Thread.sleep(500);
 		suggestion.click();
-		
+
 		to.sendKeys(toE);
 		Thread.sleep(500);
 		suggestion.click();
-		
+
 		date.sendKeys(dateE);
 		searchBus.click();
-		
+
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("Bus"));
 	}
-	
+
 }

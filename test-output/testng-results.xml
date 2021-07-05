@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="24" total="26" passed="2" failed="0" skipped="0">
+<testng-results ignored="24" total="50" passed="25" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-05T12:06:06Z" name="Suite" finished-at="2021-07-05T12:06:36Z" duration-ms="30396">
+  <suite started-at="2021-07-05T14:50:24Z" name="Suite" finished-at="2021-07-05T14:57:12Z" duration-ms="407298">
     <groups>
       <group name="mobLink">
         <method signature="AppLinkMobileTest.InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" name="InvalidMobileAppLink" class="tests.AppLinkMobileTest"/>
@@ -55,17 +55,415 @@
         <method signature="LoginTest.ValidLogin()[pri:0, instance:tests.LoginTest@31dadd46]" name="ValidLogin" class="tests.LoginTest"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2021-07-05T12:06:06Z" name="Test" finished-at="2021-07-05T12:06:36Z" duration-ms="30396">
-      <class name="tests.ManageBookingTest">
-        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:08Z" name="initWebDriver" finished-at="2021-07-05T12:06:15Z" duration-ms="7855" status="PASS">
+    <test started-at="2021-07-05T14:50:24Z" name="Test" finished-at="2021-07-05T14:57:12Z" duration-ms="407298">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:16Z" name="initWebDriver" finished-at="2021-07-05T14:52:22Z" duration-ms="5790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:15Z" name="openBrowser" finished-at="2021-07-05T12:06:17Z" duration-ms="1958" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:22Z" name="openBrowser" finished-at="2021-07-05T14:52:24Z" duration-ms="1719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:17Z" name="startTest" finished-at="2021-07-05T12:06:17Z" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:24Z" name="startTest" finished-at="2021-07-05T14:52:24Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.InvalidLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InvalidLogin()[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:24Z" name="InvalidLogin" finished-at="2021-07-05T14:52:25Z" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:25Z" name="Logger" finished-at="2021-07-05T14:52:25Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=LoginTest.InvalidLogin()[pri:0, instance:tests.LoginTest@31dadd46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:25Z" name="attachScreenShot" finished-at="2021-07-05T14:52:25Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=LoginTest.InvalidLogin()[pri:0, instance:tests.LoginTest@31dadd46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:25Z" name="closeBrowser" finished-at="2021-07-05T14:52:27Z" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:27Z" name="initWebDriver" finished-at="2021-07-05T14:52:32Z" duration-ms="5801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:32Z" name="openBrowser" finished-at="2021-07-05T14:52:34Z" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="ValidLogin()[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:34Z" name="ValidLogin" finished-at="2021-07-05T14:52:36Z" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:34Z" name="startTest" finished-at="2021-07-05T14:52:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.ValidLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:36Z" name="Logger" finished-at="2021-07-05T14:52:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLogin status=SUCCESS method=LoginTest.ValidLogin()[pri:0, instance:tests.LoginTest@31dadd46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:36Z" name="closeBrowser" finished-at="2021-07-05T14:52:37Z" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@31dadd46]" started-at="2021-07-05T14:52:36Z" name="attachScreenShot" finished-at="2021-07-05T14:52:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLogin status=SUCCESS method=LoginTest.ValidLogin()[pri:0, instance:tests.LoginTest@31dadd46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomePageSearchTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:16Z" name="initWebDriver" finished-at="2021-07-05T14:53:22Z" duration-ms="5705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:22Z" name="openBrowser" finished-at="2021-07-05T14:53:24Z" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:24Z" name="startTest" finished-at="2021-07-05T14:53:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomePageSearchTest.busTicketPageMenu() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="busTicketPageMenu()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:24Z" name="busTicketPageMenu" finished-at="2021-07-05T14:53:32Z" duration-ms="8056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busTicketPageMenu -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:32Z" name="Logger" finished-at="2021-07-05T14:53:32Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busTicketPageMenu status=SUCCESS method=HomePageSearchTest.busTicketPageMenu()[pri:0, instance:tests.HomePageSearchTest@12f9af83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:32Z" name="attachScreenShot" finished-at="2021-07-05T14:53:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busTicketPageMenu status=SUCCESS method=HomePageSearchTest.busTicketPageMenu()[pri:0, instance:tests.HomePageSearchTest@12f9af83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:32Z" name="closeBrowser" finished-at="2021-07-05T14:53:33Z" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:33Z" name="initWebDriver" finished-at="2021-07-05T14:53:39Z" duration-ms="5746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:39Z" name="openBrowser" finished-at="2021-07-05T14:53:41Z" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="homePageSearch()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:41Z" name="homePageSearch" finished-at="2021-07-05T14:53:46Z" duration-ms="5292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSearch -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:41Z" name="startTest" finished-at="2021-07-05T14:53:41Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomePageSearchTest.homePageSearch() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:46Z" name="Logger" finished-at="2021-07-05T14:53:46Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageSearch status=SUCCESS method=HomePageSearchTest.homePageSearch()[pri:0, instance:tests.HomePageSearchTest@12f9af83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:46Z" name="attachScreenShot" finished-at="2021-07-05T14:53:46Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageSearch status=SUCCESS method=HomePageSearchTest.homePageSearch()[pri:0, instance:tests.HomePageSearchTest@12f9af83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:46Z" name="closeBrowser" finished-at="2021-07-05T14:53:47Z" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:47Z" name="initWebDriver" finished-at="2021-07-05T14:53:53Z" duration-ms="5761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:53Z" name="openBrowser" finished-at="2021-07-05T14:53:55Z" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="modifySearch()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:55Z" name="modifySearch" finished-at="2021-07-05T14:54:10Z" duration-ms="14577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySearch -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:53:55Z" name="startTest" finished-at="2021-07-05T14:53:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.HomePageSearchTest.modifySearch() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:54:10Z" name="Logger" finished-at="2021-07-05T14:54:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=modifySearch status=SUCCESS method=HomePageSearchTest.modifySearch()[pri:0, instance:tests.HomePageSearchTest@12f9af83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:54:10Z" name="attachScreenShot" finished-at="2021-07-05T14:54:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=modifySearch status=SUCCESS method=HomePageSearchTest.modifySearch()[pri:0, instance:tests.HomePageSearchTest@12f9af83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" started-at="2021-07-05T14:54:10Z" name="closeBrowser" finished-at="2021-07-05T14:54:11Z" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.HomePageSearchTest -->
+      <class name="tests.AppLinkMobileTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:23Z" name="initWebDriver" finished-at="2021-07-05T14:51:29Z" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:29Z" name="openBrowser" finished-at="2021-07-05T14:51:31Z" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:31Z" name="InvalidMobileAppLink" finished-at="2021-07-05T14:51:32Z" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidMobileAppLink -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:31Z" name="startTest" finished-at="2021-07-05T14:51:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AppLinkMobileTest.InvalidMobileAppLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:32Z" name="Logger" finished-at="2021-07-05T14:51:32Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidMobileAppLink status=SUCCESS method=AppLinkMobileTest.InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:32Z" name="attachScreenShot" finished-at="2021-07-05T14:51:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidMobileAppLink status=SUCCESS method=AppLinkMobileTest.InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:32Z" name="closeBrowser" finished-at="2021-07-05T14:51:34Z" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:34Z" name="initWebDriver" finished-at="2021-07-05T14:51:40Z" duration-ms="6219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:40Z" name="openBrowser" finished-at="2021-07-05T14:51:42Z" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:42Z" name="startTest" finished-at="2021-07-05T14:51:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AppLinkMobileTest.ValidMobileAppLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ValidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:42Z" name="ValidMobileAppLink" finished-at="2021-07-05T14:51:43Z" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidMobileAppLink -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:43Z" name="Logger" finished-at="2021-07-05T14:51:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidMobileAppLink status=SUCCESS method=AppLinkMobileTest.ValidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:43Z" name="attachScreenShot" finished-at="2021-07-05T14:51:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidMobileAppLink status=SUCCESS method=AppLinkMobileTest.ValidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" started-at="2021-07-05T14:51:43Z" name="closeBrowser" finished-at="2021-07-05T14:51:45Z" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.AppLinkMobileTest -->
+      <class name="tests.ManageBookingTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:01Z" name="initWebDriver" finished-at="2021-07-05T14:55:07Z" duration-ms="5858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:07Z" name="openBrowser" finished-at="2021-07-05T14:55:09Z" duration-ms="1965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:09Z" name="startTest" finished-at="2021-07-05T14:55:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ManageBookingTest.InvalidCancelTicket() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InvalidCancelTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:09Z" name="InvalidCancelTicket" finished-at="2021-07-05T14:55:10Z" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCancelTicket -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:10Z" name="Logger" finished-at="2021-07-05T14:55:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidCancelTicket status=SUCCESS method=ManageBookingTest.InvalidCancelTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:10Z" name="closeBrowser" finished-at="2021-07-05T14:55:14Z" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:10Z" name="attachScreenShot" finished-at="2021-07-05T14:55:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidCancelTicket status=SUCCESS method=ManageBookingTest.InvalidCancelTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:14Z" name="initWebDriver" finished-at="2021-07-05T14:55:19Z" duration-ms="5120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:19Z" name="openBrowser" finished-at="2021-07-05T14:55:21Z" duration-ms="1664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:21Z" name="startTest" finished-at="2021-07-05T14:55:21Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,11 +474,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:17Z" name="InvalidEmailSms" finished-at="2021-07-05T12:06:20Z" duration-ms="2500" status="PASS">
+        <test-method signature="InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:21Z" name="InvalidEmailSms" finished-at="2021-07-05T14:55:23Z" duration-ms="2540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidEmailSms -->
-        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:20Z" name="Logger" finished-at="2021-07-05T12:06:20Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:23Z" name="Logger" finished-at="2021-07-05T14:55:23Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +489,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logger -->
-        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:20Z" name="attachScreenShot" finished-at="2021-07-05T12:06:20Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:23Z" name="attachScreenShot" finished-at="2021-07-05T14:55:23Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,19 +500,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenShot -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:20Z" name="closeBrowser" finished-at="2021-07-05T12:06:24Z" duration-ms="4170" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:23Z" name="closeBrowser" finished-at="2021-07-05T14:55:25Z" duration-ms="1067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:24Z" name="initWebDriver" finished-at="2021-07-05T12:06:29Z" duration-ms="4933" status="PASS">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:25Z" name="initWebDriver" finished-at="2021-07-05T14:55:30Z" duration-ms="5692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:29Z" name="openBrowser" finished-at="2021-07-05T12:06:31Z" duration-ms="1586" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:30Z" name="openBrowser" finished-at="2021-07-05T14:55:35Z" duration-ms="5006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:31Z" name="startTest" finished-at="2021-07-05T12:06:31Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:35Z" name="startTest" finished-at="2021-07-05T14:55:35Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,11 +523,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="InvalidShowMyTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:31Z" name="InvalidShowMyTicket" finished-at="2021-07-05T12:06:33Z" duration-ms="1936" status="PASS">
+        <test-method signature="InvalidShowMyTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:35Z" name="InvalidShowMyTicket" finished-at="2021-07-05T14:55:36Z" duration-ms="1231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidShowMyTicket -->
-        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:33Z" name="Logger" finished-at="2021-07-05T12:06:33Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:36Z" name="Logger" finished-at="2021-07-05T14:55:36Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -140,7 +538,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logger -->
-        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:33Z" name="attachScreenShot" finished-at="2021-07-05T12:06:33Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:36Z" name="attachScreenShot" finished-at="2021-07-05T14:55:36Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,21 +549,889 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenShot -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:33Z" name="closeBrowser" finished-at="2021-07-05T12:06:36Z" duration-ms="3793" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:36Z" name="closeBrowser" finished-at="2021-07-05T14:55:38Z" duration-ms="1108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:38Z" name="initWebDriver" finished-at="2021-07-05T14:55:43Z" duration-ms="5081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:43Z" name="openBrowser" finished-at="2021-07-05T14:55:45Z" duration-ms="2046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:45Z" name="startTest" finished-at="2021-07-05T14:55:45Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ManageBookingTest.InvalidchangeTravelDate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InvalidchangeTravelDate()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:45Z" name="InvalidchangeTravelDate" finished-at="2021-07-05T14:55:47Z" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidchangeTravelDate -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:47Z" name="Logger" finished-at="2021-07-05T14:55:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidchangeTravelDate status=SUCCESS method=ManageBookingTest.InvalidchangeTravelDate()[pri:0, instance:tests.ManageBookingTest@1f010bf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:47Z" name="closeBrowser" finished-at="2021-07-05T14:55:48Z" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T14:55:47Z" name="attachScreenShot" finished-at="2021-07-05T14:55:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidchangeTravelDate status=SUCCESS method=ManageBookingTest.InvalidchangeTravelDate()[pri:0, instance:tests.ManageBookingTest@1f010bf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
       </class> <!-- tests.ManageBookingTest -->
+      <class name="tests.OperatorSearch">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:55:48Z" name="initWebDriver" finished-at="2021-07-05T14:55:54Z" duration-ms="5742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:55:54Z" name="openBrowser" finished-at="2021-07-05T14:55:56Z" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:55:56Z" name="startTest" finished-at="2021-07-05T14:55:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OperatorSearch.OperatorSearchBus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="OperatorSearchBus()[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:55:56Z" name="OperatorSearchBus" finished-at="2021-07-05T14:56:18Z" duration-ms="21935" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@id='txtSource']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 42760, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b35f3cb0-cae4-41fa-96e1-5f06d4a0c454
+*** Element info: {Using=xpath, value=//input[@id='txtSource']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='txtSource']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ROHANCHOUDHARY1', ip: '172.18.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 42760, moz:profile: C:\Users\rohanchoudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b35f3cb0-cae4-41fa-96e1-5f06d4a0c454
+*** Element info: {Using=xpath, value=//input[@id='txtSource']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+at pages.OperatorPage.abSuper(OperatorPage.java:55)
+at tests.OperatorSearch.OperatorSearchBus(OperatorSearch.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OperatorSearchBus -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:18Z" name="Logger" finished-at="2021-07-05T14:56:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OperatorSearchBus status=FAILURE method=OperatorSearch.OperatorSearchBus()[pri:0, instance:tests.OperatorSearch@40db2a24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:18Z" name="attachScreenShot" finished-at="2021-07-05T14:56:18Z" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OperatorSearchBus status=FAILURE method=OperatorSearch.OperatorSearchBus()[pri:0, instance:tests.OperatorSearch@40db2a24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:18Z" name="closeBrowser" finished-at="2021-07-05T14:56:18Z" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:18Z" name="initWebDriver" finished-at="2021-07-05T14:56:22Z" duration-ms="4049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:22Z" name="openBrowser" finished-at="2021-07-05T14:56:24Z" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="OperatorSearchBusDifferentName()[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:24Z" name="OperatorSearchBusDifferentName" finished-at="2021-07-05T14:56:36Z" duration-ms="11349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OperatorSearchBusDifferentName -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:24Z" name="startTest" finished-at="2021-07-05T14:56:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OperatorSearch.OperatorSearchBusDifferentName() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:36Z" name="Logger" finished-at="2021-07-05T14:56:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OperatorSearchBusDifferentName status=SUCCESS method=OperatorSearch.OperatorSearchBusDifferentName()[pri:0, instance:tests.OperatorSearch@40db2a24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:36Z" name="attachScreenShot" finished-at="2021-07-05T14:56:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OperatorSearchBusDifferentName status=SUCCESS method=OperatorSearch.OperatorSearchBusDifferentName()[pri:0, instance:tests.OperatorSearch@40db2a24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.OperatorSearch@40db2a24]" started-at="2021-07-05T14:56:36Z" name="closeBrowser" finished-at="2021-07-05T14:56:37Z" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.OperatorSearch -->
       <class name="tests.GlobalSitesTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T12:06:06Z" name="setExtent" finished-at="2021-07-05T12:06:06Z" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:24Z" name="setExtent" finished-at="2021-07-05T14:50:24Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T12:06:36Z" name="endReport" finished-at="2021-07-05T12:06:37Z" duration-ms="515" status="PASS">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:25Z" name="initWebDriver" finished-at="2021-07-05T14:50:30Z" duration-ms="5630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:30Z" name="openBrowser" finished-at="2021-07-05T14:50:32Z" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:32Z" name="startTest" finished-at="2021-07-05T14:50:32Z" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GlobalSitesTest.ColombiaSite() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ColombiaSite()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:32Z" name="ColombiaSite" finished-at="2021-07-05T14:50:38Z" duration-ms="5456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ColombiaSite -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:38Z" name="Logger" finished-at="2021-07-05T14:50:38Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ColombiaSite status=SUCCESS method=GlobalSitesTest.ColombiaSite()[pri:0, instance:tests.GlobalSitesTest@32a68f4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:38Z" name="attachScreenShot" finished-at="2021-07-05T14:50:38Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ColombiaSite status=SUCCESS method=GlobalSitesTest.ColombiaSite()[pri:0, instance:tests.GlobalSitesTest@32a68f4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:38Z" name="closeBrowser" finished-at="2021-07-05T14:50:41Z" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:41Z" name="initWebDriver" finished-at="2021-07-05T14:50:47Z" duration-ms="5763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:47Z" name="openBrowser" finished-at="2021-07-05T14:50:49Z" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:49Z" name="startTest" finished-at="2021-07-05T14:50:49Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.GlobalSitesTest.SingaporeSite() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="SingaporeSite()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:49Z" name="SingaporeSite" finished-at="2021-07-05T14:50:51Z" duration-ms="1947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingaporeSite -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:51Z" name="Logger" finished-at="2021-07-05T14:50:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingaporeSite status=SUCCESS method=GlobalSitesTest.SingaporeSite()[pri:0, instance:tests.GlobalSitesTest@32a68f4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:51Z" name="attachScreenShot" finished-at="2021-07-05T14:50:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingaporeSite status=SUCCESS method=GlobalSitesTest.SingaporeSite()[pri:0, instance:tests.GlobalSitesTest@32a68f4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:50:51Z" name="closeBrowser" finished-at="2021-07-05T14:50:56Z" duration-ms="5350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T14:57:12Z" name="endReport" finished-at="2021-07-05T14:57:12Z" duration-ms="464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- tests.GlobalSitesTest -->
+      <class name="tests.ContactUsTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:11Z" name="initWebDriver" finished-at="2021-07-05T14:54:16Z" duration-ms="5063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:16Z" name="openBrowser" finished-at="2021-07-05T14:54:17Z" duration-ms="1675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:17Z" name="startTest" finished-at="2021-07-05T14:54:17Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ContactUsTest.ContactUsPhone() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ContactUsPhone()[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:17Z" name="ContactUsPhone" finished-at="2021-07-05T14:54:19Z" duration-ms="1799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsPhone -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:19Z" name="Logger" finished-at="2021-07-05T14:54:19Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPhone status=SUCCESS method=ContactUsTest.ContactUsPhone()[pri:0, instance:tests.ContactUsTest@19b93fa8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:19Z" name="attachScreenShot" finished-at="2021-07-05T14:54:19Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsPhone status=SUCCESS method=ContactUsTest.ContactUsPhone()[pri:0, instance:tests.ContactUsTest@19b93fa8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:19Z" name="closeBrowser" finished-at="2021-07-05T14:54:25Z" duration-ms="5496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:25Z" name="initWebDriver" finished-at="2021-07-05T14:54:30Z" duration-ms="5770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:30Z" name="openBrowser" finished-at="2021-07-05T14:54:33Z" duration-ms="2666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:33Z" name="startTest" finished-at="2021-07-05T14:54:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ContactUsTest.ContactUsSupport() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ContactUsSupport()[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:33Z" name="ContactUsSupport" finished-at="2021-07-05T14:54:42Z" duration-ms="9294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsSupport -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:42Z" name="Logger" finished-at="2021-07-05T14:54:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsSupport status=SUCCESS method=ContactUsTest.ContactUsSupport()[pri:0, instance:tests.ContactUsTest@19b93fa8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:42Z" name="attachScreenShot" finished-at="2021-07-05T14:54:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactUsSupport status=SUCCESS method=ContactUsTest.ContactUsSupport()[pri:0, instance:tests.ContactUsTest@19b93fa8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ContactUsTest@19b93fa8]" started-at="2021-07-05T14:54:42Z" name="closeBrowser" finished-at="2021-07-05T14:54:44Z" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.AgentRegistrationTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.AgentRegistrationTest@7e6ef134]" started-at="2021-07-05T14:54:44Z" name="initWebDriver" finished-at="2021-07-05T14:54:50Z" duration-ms="5692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.AgentRegistrationTest@7e6ef134]" started-at="2021-07-05T14:54:50Z" name="openBrowser" finished-at="2021-07-05T14:54:52Z" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.AgentRegistrationTest@7e6ef134]" started-at="2021-07-05T14:54:52Z" name="startTest" finished-at="2021-07-05T14:54:52Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AgentRegistrationTest.InvalidAgentRegistration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InvalidAgentRegistration()[pri:0, instance:tests.AgentRegistrationTest@7e6ef134]" started-at="2021-07-05T14:54:52Z" name="InvalidAgentRegistration" finished-at="2021-07-05T14:54:59Z" duration-ms="7045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidAgentRegistration -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.AgentRegistrationTest@7e6ef134]" started-at="2021-07-05T14:54:59Z" name="Logger" finished-at="2021-07-05T14:54:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidAgentRegistration status=SUCCESS method=AgentRegistrationTest.InvalidAgentRegistration()[pri:0, instance:tests.AgentRegistrationTest@7e6ef134] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.AgentRegistrationTest@7e6ef134]" started-at="2021-07-05T14:54:59Z" name="attachScreenShot" finished-at="2021-07-05T14:54:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidAgentRegistration status=SUCCESS method=AgentRegistrationTest.InvalidAgentRegistration()[pri:0, instance:tests.AgentRegistrationTest@7e6ef134] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AgentRegistrationTest@7e6ef134]" started-at="2021-07-05T14:54:59Z" name="closeBrowser" finished-at="2021-07-05T14:55:01Z" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.AgentRegistrationTest -->
+      <class name="tests.SocialMediaTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:37Z" name="initWebDriver" finished-at="2021-07-05T14:56:42Z" duration-ms="5712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:42Z" name="openBrowser" finished-at="2021-07-05T14:56:44Z" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="fbCheck()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:44Z" name="fbCheck" finished-at="2021-07-05T14:56:47Z" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbCheck -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:44Z" name="startTest" finished-at="2021-07-05T14:56:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SocialMediaTest.fbCheck() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:47Z" name="Logger" finished-at="2021-07-05T14:56:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbCheck status=SUCCESS method=SocialMediaTest.fbCheck()[pri:0, instance:tests.SocialMediaTest@10cf09e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:47Z" name="closeBrowser" finished-at="2021-07-05T14:56:51Z" duration-ms="4627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:47Z" name="attachScreenShot" finished-at="2021-07-05T14:56:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbCheck status=SUCCESS method=SocialMediaTest.fbCheck()[pri:0, instance:tests.SocialMediaTest@10cf09e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:51Z" name="initWebDriver" finished-at="2021-07-05T14:56:56Z" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:56:56Z" name="openBrowser" finished-at="2021-07-05T14:57:00Z" duration-ms="4027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:57:00Z" name="startTest" finished-at="2021-07-05T14:57:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SocialMediaTest.twitterCheck() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="twitterCheck()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:57:00Z" name="twitterCheck" finished-at="2021-07-05T14:57:09Z" duration-ms="8688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterCheck -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:57:09Z" name="Logger" finished-at="2021-07-05T14:57:09Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=twitterCheck status=SUCCESS method=SocialMediaTest.twitterCheck()[pri:0, instance:tests.SocialMediaTest@10cf09e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:57:09Z" name="attachScreenShot" finished-at="2021-07-05T14:57:09Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=twitterCheck status=SUCCESS method=SocialMediaTest.twitterCheck()[pri:0, instance:tests.SocialMediaTest@10cf09e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" started-at="2021-07-05T14:57:09Z" name="closeBrowser" finished-at="2021-07-05T14:57:12Z" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SocialMediaTest -->
+      <class name="tests.PrivacyLinkTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.PrivacyLinkTest@73194df]" started-at="2021-07-05T14:50:56Z" name="initWebDriver" finished-at="2021-07-05T14:51:03Z" duration-ms="6750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.PrivacyLinkTest@73194df]" started-at="2021-07-05T14:51:03Z" name="openBrowser" finished-at="2021-07-05T14:51:05Z" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.PrivacyLinkTest@73194df]" started-at="2021-07-05T14:51:05Z" name="startTest" finished-at="2021-07-05T14:51:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PrivacyLinkTest.privacyLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="privacyLink()[pri:0, instance:tests.PrivacyLinkTest@73194df]" started-at="2021-07-05T14:51:05Z" name="privacyLink" finished-at="2021-07-05T14:51:07Z" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacyLink -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.PrivacyLinkTest@73194df]" started-at="2021-07-05T14:51:07Z" name="Logger" finished-at="2021-07-05T14:51:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=privacyLink status=SUCCESS method=PrivacyLinkTest.privacyLink()[pri:0, instance:tests.PrivacyLinkTest@73194df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.PrivacyLinkTest@73194df]" started-at="2021-07-05T14:51:07Z" name="attachScreenShot" finished-at="2021-07-05T14:51:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=privacyLink status=SUCCESS method=PrivacyLinkTest.privacyLink()[pri:0, instance:tests.PrivacyLinkTest@73194df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.PrivacyLinkTest@73194df]" started-at="2021-07-05T14:51:07Z" name="closeBrowser" finished-at="2021-07-05T14:51:08Z" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.PrivacyLinkTest -->
+      <class name="tests.FAQTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.FAQTest@6eb2384f]" started-at="2021-07-05T14:51:08Z" name="initWebDriver" finished-at="2021-07-05T14:51:14Z" duration-ms="5827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.FAQTest@6eb2384f]" started-at="2021-07-05T14:51:14Z" name="openBrowser" finished-at="2021-07-05T14:51:16Z" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.FAQTest@6eb2384f]" started-at="2021-07-05T14:51:16Z" name="startTest" finished-at="2021-07-05T14:51:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FAQTest.FaqPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="FaqPage()[pri:0, instance:tests.FAQTest@6eb2384f]" started-at="2021-07-05T14:51:16Z" name="FaqPage" finished-at="2021-07-05T14:51:19Z" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FaqPage -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.FAQTest@6eb2384f]" started-at="2021-07-05T14:51:19Z" name="Logger" finished-at="2021-07-05T14:51:19Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FaqPage status=SUCCESS method=FAQTest.FaqPage()[pri:0, instance:tests.FAQTest@6eb2384f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.FAQTest@6eb2384f]" started-at="2021-07-05T14:51:19Z" name="attachScreenShot" finished-at="2021-07-05T14:51:19Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FaqPage status=SUCCESS method=FAQTest.FaqPage()[pri:0, instance:tests.FAQTest@6eb2384f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.FAQTest@6eb2384f]" started-at="2021-07-05T14:51:19Z" name="closeBrowser" finished-at="2021-07-05T14:51:23Z" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.FAQTest -->
+      <class name="tests.RPoolAppDownloadTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:51:45Z" name="initWebDriver" finished-at="2021-07-05T14:51:51Z" duration-ms="6271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:51:51Z" name="openBrowser" finished-at="2021-07-05T14:51:56Z" duration-ms="4989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:51:56Z" name="startTest" finished-at="2021-07-05T14:51:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RPoolAppDownloadTest.androidAppLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="androidAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:51:56Z" name="androidAppLink" finished-at="2021-07-05T14:51:58Z" duration-ms="2339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidAppLink -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:51:58Z" name="attachScreenShot" finished-at="2021-07-05T14:51:58Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=androidAppLink status=SUCCESS method=RPoolAppDownloadTest.androidAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:51:58Z" name="Logger" finished-at="2021-07-05T14:51:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=androidAppLink status=SUCCESS method=RPoolAppDownloadTest.androidAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:51:58Z" name="closeBrowser" finished-at="2021-07-05T14:52:00Z" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:52:00Z" name="initWebDriver" finished-at="2021-07-05T14:52:06Z" duration-ms="5804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:52:06Z" name="openBrowser" finished-at="2021-07-05T14:52:08Z" duration-ms="2191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="iosAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:52:08Z" name="iosAppLink" finished-at="2021-07-05T14:52:12Z" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosAppLink -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:52:08Z" name="startTest" finished-at="2021-07-05T14:52:08Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RPoolAppDownloadTest.iosAppLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:52:12Z" name="Logger" finished-at="2021-07-05T14:52:12Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iosAppLink status=SUCCESS method=RPoolAppDownloadTest.iosAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:52:12Z" name="attachScreenShot" finished-at="2021-07-05T14:52:12Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iosAppLink status=SUCCESS method=RPoolAppDownloadTest.iosAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" started-at="2021-07-05T14:52:12Z" name="closeBrowser" finished-at="2021-07-05T14:52:16Z" duration-ms="4653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.RPoolAppDownloadTest -->
+      <class name="tests.CareerPageTest">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:52:37Z" name="initWebDriver" finished-at="2021-07-05T14:52:43Z" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:52:43Z" name="openBrowser" finished-at="2021-07-05T14:52:45Z" duration-ms="2542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="careerHiristLink()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:52:45Z" name="careerHiristLink" finished-at="2021-07-05T14:52:55Z" duration-ms="9613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerHiristLink -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:52:45Z" name="startTest" finished-at="2021-07-05T14:52:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CareerPageTest.careerHiristLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:52:55Z" name="Logger" finished-at="2021-07-05T14:52:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careerHiristLink status=SUCCESS method=CareerPageTest.careerHiristLink()[pri:0, instance:tests.CareerPageTest@4ed5eb72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:52:55Z" name="attachScreenShot" finished-at="2021-07-05T14:52:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careerHiristLink status=SUCCESS method=CareerPageTest.careerHiristLink()[pri:0, instance:tests.CareerPageTest@4ed5eb72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:52:55Z" name="closeBrowser" finished-at="2021-07-05T14:52:56Z" duration-ms="1587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:52:56Z" name="initWebDriver" finished-at="2021-07-05T14:53:03Z" duration-ms="6761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:53:03Z" name="openBrowser" finished-at="2021-07-05T14:53:05Z" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:53:05Z" name="startTest" finished-at="2021-07-05T14:53:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.CareerPageTest.careerLinkedIn() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="careerLinkedIn()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:53:05Z" name="careerLinkedIn" finished-at="2021-07-05T14:53:14Z" duration-ms="9222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerLinkedIn -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:53:14Z" name="Logger" finished-at="2021-07-05T14:53:14Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careerLinkedIn status=SUCCESS method=CareerPageTest.careerLinkedIn()[pri:0, instance:tests.CareerPageTest@4ed5eb72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:53:14Z" name="attachScreenShot" finished-at="2021-07-05T14:53:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careerLinkedIn status=SUCCESS method=CareerPageTest.careerLinkedIn()[pri:0, instance:tests.CareerPageTest@4ed5eb72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" started-at="2021-07-05T14:53:14Z" name="closeBrowser" finished-at="2021-07-05T14:53:16Z" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.CareerPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -8,6 +8,8 @@ import pages.HomePage;
 import util.ExcelDataFetch;
 
 public class AppLinkMobileTest extends BaseTest {
+	
+	//To test the sending app link to mobile feature
 	@Test(groups = { "mobLink" })
 	public void InvalidMobileAppLink() throws Exception {
 		//Fetching and altering data from excel
@@ -19,7 +21,8 @@ public class AppLinkMobileTest extends BaseTest {
 		mobLink.sendAppLink(mob);
 		AssertJUnit.assertEquals(mobLink.errorInvalidMob.getText(), "Invalid Mobile No");
 	}
-
+	
+	//To test the sending app link to mobile feature
 	@Test(groups = { "mobLink" })
 	public void ValidMobileAppLink() throws Exception {
 		//Fetching and altering data from excel

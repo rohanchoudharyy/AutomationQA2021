@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="15" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="listener.MethodInterceptor"/>
   </listeners>
-  <test thread-count="15" parallel="tests" name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="Port" value="9001"/>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.PrivacyLinkTest">
+      <class name="tests.OperatorSearch">
         <methods>
-          <include name="privacyLinkTest"/>
           <include name="closeBrowser"/>
           <include name="endReport"/>
+          <include name="startTest"/>
+          <include name="initWebDriver"/>
           <include name="attachScreenShot"/>
           <include name="Logger"/>
           <include name="openBrowser"/>
-          <include name="intializeWebdriver"/>
           <include name="setExtent"/>
+          <include name="OperatorSearchBus"/>
         </methods>
-      </class> <!-- tests.PrivacyLinkTest -->
+      </class> <!-- tests.OperatorSearch -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

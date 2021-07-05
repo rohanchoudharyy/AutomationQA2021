@@ -12,6 +12,7 @@ import tests.BaseTest;
 
 public class ScreenShots extends BaseTest{
 
+	//To return screenshot path
 	public static String takeScreenShot(WebDriver driver, String testCaseName) {
 		String screenshotFileName = prop.getProperty("screenshotDir") + testCaseName + "TestFailed.jpg";
 

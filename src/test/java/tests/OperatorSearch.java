@@ -11,6 +11,8 @@ import pages.OperatorPage;
 import util.ExcelDataFetch;
 
 public class OperatorSearch extends BaseTest {
+	
+	//To test the searching of buses according to operator names
 	@Test(groups = { "search" })
 	public void OperatorSearchBus() throws Exception {
 		ExcelDataFetch excel = new ExcelDataFetch();
@@ -21,6 +23,7 @@ public class OperatorSearch extends BaseTest {
 		Assert.assertTrue(driver.getTitle().contains("Bus"));
 	}
 	
+	//To test the searching of buses according to different operator names
 	@Test(groups = { "search" })
 	public void OperatorSearchBusDifferentName() throws Exception {
 		ExcelDataFetch excel = new ExcelDataFetch();

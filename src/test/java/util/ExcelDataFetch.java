@@ -29,6 +29,7 @@ public class ExcelDataFetch extends BaseTest
         fis.close();
     }
  
+    //Function to get excel data according to Excel sheetname, column name and row number
     public String getCellData(String sheetName, String colName, int rowNum)
     {
         try

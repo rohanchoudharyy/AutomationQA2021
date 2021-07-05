@@ -22,7 +22,7 @@ public class PrivacyPage {
 
 	@FindBy(how = How.XPATH, using = "//h3[contains(text(),'Privacy Policy')]")
 	public WebElement privacyCheck;
-	
+
 	public void clickPrivacy() throws InterruptedException {
 		// Scroll down
 		JavascriptExecutor js = (JavascriptExecutor) driver;

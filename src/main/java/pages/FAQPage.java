@@ -19,24 +19,23 @@ public class FAQPage {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
 	}
-	
+
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'GENERAL')]")
 	public WebElement general;
-	
+
 	@FindBy(how = How.XPATH, using = "//h3[contains(text(),'Frequently Asked Questions')]")
 	public WebElement assertGeneral;
-	
+
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'GENERAL')]")
 	public WebElement FAQ;
-	
+
 	public void clickFAQ() throws InterruptedException {
 		// Scroll down
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		// Wait until element is clickable
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		WebElement FAQ = wait
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'FAQ')]")));
+		WebElement FAQ = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'FAQ')]")));
 		FAQ.click();
 		// changing tabs
 		String currentHandle = driver.getWindowHandle();
@@ -48,7 +47,7 @@ public class FAQPage {
 			}
 		}
 	}
-	
+
 	public void general() {
 		general.click();
 	}

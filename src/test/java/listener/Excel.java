@@ -13,16 +13,17 @@ import java.util.Objects;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Excel {
+import tests.BaseTest;
+
+public class Excel extends BaseTest{
 
 	private Excel() {
 	}
-
 	public static List<Map<String, String>> getTestDetails() {
 		List<Map<String, String>> list = new ArrayList<>();
 		FileInputStream fs = null;
 		try {
-			fs = new FileInputStream(".//data.xlsx");
+			fs = new FileInputStream(prop.getProperty("excel_file"));
 			XSSFWorkbook workbook = new XSSFWorkbook(fs);
 			XSSFSheet sheet = workbook.getSheetAt(0);
 

@@ -10,6 +10,7 @@ import pages.CareerPage;
 
 public class CareerPageTest extends BaseTest {
 
+	//To test the career page fields (Hirist)
 	@Test(groups = { "career" })
 	public void careerHiristLink() throws Exception {
 		CareerPage career = new CareerPage(driver);
@@ -20,6 +21,7 @@ public class CareerPageTest extends BaseTest {
 		AssertJUnit.assertEquals(driver.getCurrentUrl(), "https://showcase.hirist.com/v2/rscp-redbusin-1213.html");
 	}
 
+	//To test the career page fields (LinkedIn)
 	@Test(groups = { "career" })
 	public void careerLinkedIn() throws Exception {
 		CareerPage career = new CareerPage(driver);

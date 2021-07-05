@@ -66,6 +66,7 @@ public class RPoolPage {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("redBus"));
 	}
+
 	public void ios() {
 		appleStore.click();
 		// changing tabs

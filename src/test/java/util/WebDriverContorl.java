@@ -16,7 +16,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import tests.BaseTest;
 
 public class WebDriverContorl extends BaseTest {
-
+	
+	//Function to help initialize web driver according to configurations
 	public static void intializeWebdriver() throws Exception {
 		String browser = prop.getProperty("browser");
 		String headless = prop.getProperty("headless");
@@ -93,9 +94,12 @@ public class WebDriverContorl extends BaseTest {
 			throw new Exception("PLEASE CHECK THE BROWSER NAME !");
 		}
 		logger.info("Browser opened successfully.");
+		driver.manage().timeouts().pageLoadTimeout(timeout, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 	}
 
+	//Function to help initialize web driver according to configurations (DOCKER)
 	public static void initiateDriver(String Port) throws MalformedURLException {
 		if (Port.equalsIgnoreCase("9001")) {
 			ChromeOptions options = new ChromeOptions();
@@ -106,6 +110,7 @@ public class WebDriverContorl extends BaseTest {
 			driver = (new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"), options));
 		}
 		driver.manage().timeouts().pageLoadTimeout(timeout, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
 }

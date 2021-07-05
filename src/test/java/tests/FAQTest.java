@@ -7,6 +7,8 @@ import pages.ContactUsPage;
 import pages.FAQPage;
 
 public class FAQTest extends BaseTest {
+	
+	//Test the FAQ page
 	@Test(groups = { "faq" })
 	public void FaqPage() throws Exception {
 		FAQPage faq = new FAQPage(driver);

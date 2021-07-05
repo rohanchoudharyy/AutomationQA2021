@@ -8,6 +8,7 @@ import util.ExcelDataFetch;
 
 public class HomePageSearchTest extends BaseTest {
 
+	//To test the Bus search feature on home page
 	@Test(groups = { "search" })
 	public void homePageSearch() throws Exception {
 		ExcelDataFetch excel = new ExcelDataFetch();
@@ -24,6 +25,7 @@ public class HomePageSearchTest extends BaseTest {
 		AssertJUnit.assertEquals(driver.getTitle(), "Delhi to Dehradun Bus Tickets Booking, Save upto 25% - redBus");
 	}
 
+	//To test the search bus feature on BUS TICKETS menu option
 	@Test(groups = { "search" })
 	public void busTicketPageMenu() throws Exception {
 		ExcelDataFetch excel = new ExcelDataFetch();
@@ -37,6 +39,7 @@ public class HomePageSearchTest extends BaseTest {
 		Assert.assertTrue(driver.getTitle().contains("Bus"));
 	}
 
+	//To test the modify search results feauture
 	@Test(groups = { "search" })
 	public void modifySearch() throws Exception {
 		ExcelDataFetch excel = new ExcelDataFetch();

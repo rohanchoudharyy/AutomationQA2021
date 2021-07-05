@@ -6,6 +6,8 @@ import pages.LoginPage;
 import util.ExcelDataFetch;
 
 public class LoginTest extends BaseTest {
+	
+	//Testing login functionality
 	@Test(groups = { "login" })
 	public void ValidLogin() throws Exception {
 		// Fetching and altering data from excel
@@ -20,6 +22,7 @@ public class LoginTest extends BaseTest {
 		login.validSignIn(mob);
 	}
 
+	//Testing login functionality
 	@Test(groups = { "login" })
 	public void InvalidLogin() throws Exception {
 		// Fetching and altering data from excel

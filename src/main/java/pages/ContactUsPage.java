@@ -31,22 +31,21 @@ public class ContactUsPage {
 
 	@FindBy(how = How.XPATH, using = "//body/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")
 	public WebElement closeFrame;
-	
+
 	@FindBy(how = How.XPATH, using = "//body/section[@id='rh_main']/div[@id='mBWrapper']/div[@id='content']/div[1]/div[1]/iframe[1]")
 	public WebElement covidHelp;
-	
 
 	public void contactUsPageCheck() throws InterruptedException {
 		// Scroll down
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		
+
 		// Wait until element is clickable
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement contactUs = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(),'Contact Us')]")));
 		contactUs.click();
-		
+
 		// Switch Tabs
 		String currentHandle = driver.getWindowHandle();
 		Set<String> handles = driver.getWindowHandles();
@@ -60,7 +59,7 @@ public class ContactUsPage {
 
 	public void support() throws InterruptedException {
 		query.click();
-		
+
 		// Switch Tabs
 		String currentHandle = driver.getWindowHandle();
 		Set<String> handles = driver.getWindowHandles();
