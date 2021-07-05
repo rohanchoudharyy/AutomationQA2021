@@ -5175,3 +5175,430 @@
 2021-07-04 23:49:18,339 [main] INFO tests.BaseTest - URL opened successfully.
 2021-07-04 23:49:23,539 [main] INFO tests.BaseTest - twitterCheck TEST CASE EXECUTED SUCCESSFULLY.
 2021-07-04 23:49:24,380 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:17:33,629 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:17:36,490 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:17:39,023 [main] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:17:40,386 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:17:45,484 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:17:48,486 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:17:50,031 [main] INFO tests.BaseTest - SingaporeSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:17:51,723 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:17:57,353 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:18:01,027 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:18:03,049 [main] INFO tests.BaseTest - privacyLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:18:04,179 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:18:09,310 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:18:22,784 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:18:25,726 [main] INFO tests.BaseTest - FaqPage TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:18:26,911 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:18:32,381 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:18:42,572 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:18:43,547 [main] INFO tests.BaseTest - InvalidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:18:44,631 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:18:49,847 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:18:53,212 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:18:54,446 [main] INFO tests.BaseTest - ValidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:18:55,976 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:19:01,334 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:19:05,048 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:19:10,439 [main] INFO tests.BaseTest - androidAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:19:12,270 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:19:18,351 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:19:21,840 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:19:30,406 [main] INFO tests.BaseTest - iosAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:19:31,709 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:19:37,882 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:19:41,847 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:19:43,828 [main] INFO tests.BaseTest - InvalidLogin TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:19:45,888 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:19:53,814 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:20:02,754 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:20:06,525 [main] INFO tests.BaseTest - ValidLogin TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:20:09,373 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:20:16,451 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:20:21,507 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:20:27,690 [main] INFO tests.BaseTest - careerHiristLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:20:29,525 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:20:35,027 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:20:38,152 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:20:45,750 [main] INFO tests.BaseTest - careerLinkedIn TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:20:47,043 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:20:53,087 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:20:56,148 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:21:04,740 [main] INFO tests.BaseTest - busTicketPageMenu TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:21:06,180 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:21:12,311 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:21:16,258 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:21:23,879 [main] INFO tests.BaseTest - homePageSearch TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:21:25,127 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:21:31,336 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:21:34,534 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:22:01,854 [main] INFO tests.BaseTest - modifySearch TEST CASE FAILED.
+2021-07-05 00:22:03,800 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:22:09,621 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:22:12,901 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:22:15,443 [main] INFO tests.BaseTest - ContactUsPhone TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:22:16,467 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:22:21,258 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:22:25,233 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:22:30,437 [main] INFO tests.BaseTest - ContactUsSupport TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:22:31,898 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:22:37,449 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:22:40,222 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:22:49,188 [main] INFO tests.BaseTest - InvalidAgentRegistration TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:22:50,723 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:22:56,592 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:23:00,045 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:23:01,695 [main] INFO tests.BaseTest - InvalidCancelTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:23:02,982 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:23:08,134 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:23:11,521 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:23:15,255 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:23:16,314 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:23:21,304 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:23:24,942 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:23:28,024 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:23:29,371 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:23:34,607 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:23:37,605 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:23:40,431 [main] INFO tests.BaseTest - InvalidchangeTravelDate TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:23:41,623 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:23:47,158 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:23:50,613 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:24:12,785 [main] INFO tests.BaseTest - OperatorSearchBus TEST CASE FAILED.
+2021-07-05 00:24:14,624 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:24:20,051 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:24:33,805 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:24:42,380 [main] INFO tests.BaseTest - OperatorSearchBusDifferentName TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:24:43,761 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:24:49,056 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:24:52,736 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:24:55,447 [main] INFO tests.BaseTest - fbCheck TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:24:56,917 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:25:02,201 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:25:05,362 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:25:11,249 [main] INFO tests.BaseTest - twitterCheck TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:25:14,052 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:27:22,373 [TestNG-tests-1] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:27:22,672 [TestNG-tests-2] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:27:26,116 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:27:26,267 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:27:29,110 [TestNG-tests-2] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:27:30,459 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:27:30,567 [TestNG-tests-1] INFO tests.BaseTest - ColombiaSite TEST CASE FAILED.
+2021-07-05 00:27:36,391 [TestNG-tests-2] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:27:39,871 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:27:41,466 [TestNG-tests-2] INFO tests.BaseTest - SingaporeSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:27:43,344 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:27:48,906 [TestNG-tests-1] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:27:52,040 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:27:56,607 [TestNG-tests-1] INFO tests.BaseTest - privacyLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:27:58,493 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:28:04,727 [TestNG-tests-2] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:28:07,831 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:28:09,310 [TestNG-tests-2] INFO tests.BaseTest - privacyLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:28:10,553 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:28:16,104 [TestNG-tests-1] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:28:18,803 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:28:21,596 [TestNG-tests-1] INFO tests.BaseTest - FaqPage TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:28:23,009 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:28:29,309 [TestNG-tests-2] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 00:28:31,971 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:28:34,719 [TestNG-tests-2] INFO tests.BaseTest - FaqPage TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:28:35,931 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:33:56,933 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:33:59,645 [TestNG-tests-2] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:34:00,760 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:34:09,324 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:34:11,176 [TestNG-tests-2] INFO tests.BaseTest - SingaporeSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:34:12,691 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:34:21,293 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:34:22,375 [TestNG-tests-2] INFO tests.BaseTest - privacyLink TEST CASE FAILED.
+2021-07-05 00:34:24,021 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:34:33,749 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:34:34,869 [TestNG-tests-2] INFO tests.BaseTest - FaqPage TEST CASE FAILED.
+2021-07-05 00:34:36,824 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:34:46,347 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:34:47,316 [TestNG-tests-2] INFO tests.BaseTest - InvalidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:34:48,446 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:34:57,783 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:34:58,568 [TestNG-tests-2] INFO tests.BaseTest - ValidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:34:59,798 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:35:08,355 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:35:12,725 [TestNG-tests-2] INFO tests.BaseTest - androidAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:35:15,228 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:35:23,475 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:35:30,921 [TestNG-tests-2] INFO tests.BaseTest - iosAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:35:32,477 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:35:40,491 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:35:42,671 [TestNG-tests-2] INFO tests.BaseTest - InvalidLogin TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:35:44,401 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:35:53,504 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:35:54,934 [TestNG-tests-2] INFO tests.BaseTest - ValidLogin TEST CASE FAILED.
+2021-07-05 00:35:57,608 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:36:06,760 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:36:09,042 [TestNG-tests-2] INFO tests.BaseTest - careerHiristLink TEST CASE FAILED.
+2021-07-05 00:36:11,731 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:36:20,786 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:36:21,914 [TestNG-tests-2] INFO tests.BaseTest - careerLinkedIn TEST CASE FAILED.
+2021-07-05 00:36:23,717 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:36:32,908 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:36:41,289 [TestNG-tests-2] INFO tests.BaseTest - busTicketPageMenu TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:36:42,697 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:36:52,146 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:37:00,518 [TestNG-tests-2] INFO tests.BaseTest - homePageSearch TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:37:02,057 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:37:09,877 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:37:17,622 [TestNG-tests-2] INFO tests.BaseTest - modifySearch TEST CASE FAILED.
+2021-07-05 00:37:19,473 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:37:28,314 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:37:31,502 [TestNG-tests-2] INFO tests.BaseTest - ContactUsPhone TEST CASE FAILED.
+2021-07-05 00:37:34,644 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:37:56,752 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:37:59,250 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:38:04,530 [TestNG-tests-1] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:38:05,525 [TestNG-tests-2] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:38:08,659 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:38:16,346 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:38:19,805 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:38:24,700 [TestNG-tests-2] INFO tests.BaseTest - privacyLink TEST CASE FAILED.
+2021-07-05 00:38:24,743 [TestNG-tests-1] INFO tests.BaseTest - SingaporeSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:38:27,552 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:38:36,950 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:38:40,159 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:38:45,013 [TestNG-tests-2] INFO tests.BaseTest - FaqPage TEST CASE FAILED.
+2021-07-05 00:38:45,420 [TestNG-tests-1] INFO tests.BaseTest - privacyLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:38:48,535 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:38:58,538 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:39:04,531 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:39:07,285 [TestNG-tests-2] INFO tests.BaseTest - InvalidMobileAppLink TEST CASE FAILED.
+2021-07-05 00:39:12,228 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:39:12,233 [TestNG-tests-1] INFO tests.BaseTest - FaqPage TEST CASE FAILED.
+2021-07-05 00:39:24,297 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:39:29,119 [TestNG-tests-2] INFO tests.BaseTest - ValidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:42:14,103 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:42:16,170 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:42:18,372 [TestNG-tests-1] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:42:18,400 [TestNG-tests-2] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:42:19,761 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:42:26,169 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:42:27,432 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:42:30,637 [TestNG-tests-2] INFO tests.BaseTest - privacyLink TEST CASE FAILED.
+2021-07-05 00:42:30,673 [TestNG-tests-1] INFO tests.BaseTest - SingaporeSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:42:34,059 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:42:42,470 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:42:47,144 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:42:50,954 [TestNG-tests-2] INFO tests.BaseTest - FaqPage TEST CASE FAILED.
+2021-07-05 00:42:51,094 [TestNG-tests-1] INFO tests.BaseTest - privacyLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:42:54,622 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:43:06,544 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:43:11,376 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:43:14,377 [TestNG-tests-2] INFO tests.BaseTest - InvalidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:43:16,069 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:43:16,071 [TestNG-tests-1] INFO tests.BaseTest - FaqPage TEST CASE FAILED.
+2021-07-05 00:43:27,204 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:43:28,794 [TestNG-tests-2] INFO tests.BaseTest - ValidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:43:30,653 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:43:42,720 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:43:48,098 [TestNG-tests-2] INFO tests.BaseTest - androidAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:43:50,989 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:44:00,506 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:44:04,495 [TestNG-tests-2] INFO tests.BaseTest - iosAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 00:44:06,478 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 00:44:16,313 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 00:44:17,582 [TestNG-tests-2] INFO tests.BaseTest - InvalidLogin TEST CASE FAILED.
+2021-07-05 00:44:19,809 [TestNG-tests-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:12:30,334 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:12:47,487 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:12:52,968 [TestNG-tests-1] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:12:53,019 [TestNG-tests-2] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:12:57,602 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:13:19,432 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:13:43,695 [TestNG-tests-1] INFO tests.BaseTest - SingaporeSite TEST CASE FAILED.
+2021-07-05 01:13:50,569 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:14:07,632 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:14:11,378 [TestNG-tests-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:14:22,865 [TestNG-tests-2] INFO tests.BaseTest - FaqPage TEST CASE FAILED.
+2021-07-05 01:14:23,443 [TestNG-tests-1] INFO tests.BaseTest - privacyLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:14:28,219 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:14:43,329 [TestNG-tests-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:15:06,784 [TestNG-tests-1] INFO tests.BaseTest - FaqPage TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:15:26,161 [TestNG-tests-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:26:05,929 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:26:25,273 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:26:36,334 [main] INFO tests.BaseTest - ColombiaSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:26:41,118 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:26:52,855 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:27:05,047 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:27:13,431 [main] INFO tests.BaseTest - SingaporeSite TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:27:17,903 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:27:27,776 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:27:35,507 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:27:41,702 [main] INFO tests.BaseTest - privacyLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:27:45,482 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:27:54,790 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:28:05,670 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:28:13,368 [main] INFO tests.BaseTest - FaqPage TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:28:15,726 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:28:23,746 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:28:31,000 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:28:35,571 [main] INFO tests.BaseTest - InvalidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:28:38,430 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:28:54,068 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:29:05,991 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:29:07,559 [main] INFO tests.BaseTest - ValidMobileAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:29:09,752 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:29:19,016 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:29:27,827 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:29:34,967 [main] INFO tests.BaseTest - androidAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:29:39,767 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:29:51,405 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:29:57,828 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:30:05,014 [main] INFO tests.BaseTest - iosAppLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:30:08,899 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:30:16,917 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:30:24,846 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:30:29,232 [main] INFO tests.BaseTest - InvalidLogin TEST CASE FAILED.
+2021-07-05 01:30:33,460 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:30:41,163 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:30:47,710 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:30:52,688 [main] INFO tests.BaseTest - ValidLogin TEST CASE FAILED.
+2021-07-05 01:30:58,297 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:31:05,573 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:31:12,428 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:31:25,762 [main] INFO tests.BaseTest - careerHiristLink TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:31:30,360 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:31:39,155 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:31:45,317 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:31:58,895 [main] INFO tests.BaseTest - careerLinkedIn TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:32:03,273 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:32:20,263 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:32:27,942 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:32:45,583 [main] INFO tests.BaseTest - busTicketPageMenu TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:32:48,281 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:32:56,954 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:33:04,246 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:33:14,628 [main] INFO tests.BaseTest - homePageSearch TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:33:17,724 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:33:25,261 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:33:31,466 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:34:04,180 [main] INFO tests.BaseTest - modifySearch TEST CASE FAILED.
+2021-07-05 01:34:06,052 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:34:11,875 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:34:15,073 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:34:18,037 [main] INFO tests.BaseTest - ContactUsPhone TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:34:21,276 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:34:31,155 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:34:37,636 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:34:48,178 [main] INFO tests.BaseTest - ContactUsSupport TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:34:50,221 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:34:56,937 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:35:03,594 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:35:19,367 [main] INFO tests.BaseTest - InvalidAgentRegistration TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:35:22,635 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:35:34,267 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:35:43,343 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:35:48,016 [main] INFO tests.BaseTest - InvalidCancelTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:35:50,697 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:36:08,514 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:36:16,473 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:36:25,366 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:36:28,411 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:36:37,342 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:36:43,993 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:36:52,590 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:36:57,716 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:37:05,947 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:37:16,498 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:37:28,948 [main] INFO tests.BaseTest - InvalidchangeTravelDate TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:37:32,840 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:37:41,005 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:37:52,195 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:38:17,007 [main] INFO tests.BaseTest - OperatorSearchBus TEST CASE FAILED.
+2021-07-05 01:38:18,925 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:38:27,880 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:38:46,335 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:39:18,846 [main] INFO tests.BaseTest - OperatorSearchBusDifferentName TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:39:23,145 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:39:42,608 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:39:51,050 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:39:59,292 [main] INFO tests.BaseTest - fbCheck TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:40:03,266 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:40:12,421 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:40:18,037 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:40:47,818 [main] INFO tests.BaseTest - twitterCheck TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:40:52,313 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:47:33,840 [TestNG-test=Test-4] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:47:36,228 [TestNG-test=Test-2] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:47:39,032 [TestNG-test=Test-5] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:47:56,917 [TestNG-test=Test-1] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:50:38,572 [TestNG-test=Test-2] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:50:38,572 [TestNG-test=Test-1] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:50:45,462 [TestNG-test=Test-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:50:48,060 [TestNG-test=Test-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:50:49,887 [TestNG-test=Test-1] INFO tests.BaseTest - InvalidLogin TEST CASE FAILED.
+2021-07-05 01:50:49,940 [TestNG-test=Test-2] INFO tests.BaseTest - ValidLogin TEST CASE FAILED.
+2021-07-05 01:50:53,107 [TestNG-test=Test-1] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:52:38,059 [TestNG-test=Test-2] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:52:38,065 [TestNG-test=Test-1] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:52:41,630 [TestNG-test=Test-2] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:52:46,043 [TestNG-test=Test-1] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:52:47,447 [TestNG-test=Test-2] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE FAILED.
+2021-07-05 01:52:47,486 [TestNG-test=Test-1] INFO tests.BaseTest - InvalidEmailSms TEST CASE FAILED.
+2021-07-05 01:52:51,322 [TestNG-test=Test-2] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:53:46,657 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:53:50,302 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:53:54,490 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:53:56,724 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 01:54:04,742 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 01:54:14,843 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 01:54:19,574 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 01:54:22,370 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:14:25,056 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:14:28,107 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:14:31,205 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 02:14:32,188 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:14:38,054 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:14:41,444 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:14:44,901 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 02:14:46,498 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:15:21,748 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:15:24,012 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:15:26,398 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 02:15:32,243 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:15:37,198 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:15:40,148 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:15:46,964 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 02:15:50,528 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:21:03,597 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:21:06,189 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:21:08,315 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 02:21:12,470 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:21:17,518 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:21:19,432 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:21:24,389 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 02:21:27,853 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:25:48,317 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:25:51,878 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:25:53,368 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE FAILED.
+2021-07-05 02:25:54,535 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:25:56,200 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:25:59,270 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:26:00,633 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE FAILED.
+2021-07-05 02:26:01,598 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:28:11,934 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:28:15,517 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:28:17,097 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE FAILED.
+2021-07-05 02:28:18,427 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 02:28:20,000 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 02:28:23,790 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 02:28:25,235 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE FAILED.
+2021-07-05 02:28:26,429 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 17:36:15,913 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 17:36:17,885 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 17:36:20,408 [main] INFO tests.BaseTest - InvalidEmailSms TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 17:36:24,588 [main] INFO tests.BaseTest - Browser closed successfully.
+2021-07-05 17:36:29,507 [main] INFO tests.BaseTest - Browser opened successfully.
+2021-07-05 17:36:31,110 [main] INFO tests.BaseTest - URL opened successfully.
+2021-07-05 17:36:33,050 [main] INFO tests.BaseTest - InvalidShowMyTicket TEST CASE EXECUTED SUCCESSFULLY.
+2021-07-05 17:36:36,844 [main] INFO tests.BaseTest - Browser closed successfully.

@@ -110,7 +110,6 @@ public class BaseTest {
 	@BeforeMethod(groups = { "base", "pre" })
 	public static void openBrowser() {
 		driver.get(prop.getProperty("url"));
-		// driver.manage().window().maximize();
 		logger.info("URL opened successfully.");
 	}
 

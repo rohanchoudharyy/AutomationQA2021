@@ -6,8 +6,9 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="tests.CareerPageTest">
+      <class name="tests.ManageBookingTest">
         <methods>
+          <include name="InvalidShowMyTicket"/>
           <include name="closeBrowser"/>
           <include name="endReport"/>
           <include name="startTest"/>
@@ -15,10 +16,10 @@
           <include name="attachScreenShot"/>
           <include name="Logger"/>
           <include name="openBrowser"/>
+          <include name="InvalidEmailSms"/>
           <include name="setExtent"/>
-          <include name="careerHiristLink"/>
         </methods>
-      </class> <!-- tests.CareerPageTest -->
+      </class> <!-- tests.ManageBookingTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
