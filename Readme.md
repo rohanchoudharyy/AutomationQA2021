@@ -94,37 +94,37 @@ test_reports.html file is generated once you run all the test cases. You can che
 ## Log
 This folder contains all the log files of the test cases. Check the application.html file to view the logs.
 
-##Failed Screenshots
+## Failed Screenshots
 This folder contains screenshots of all the failed test cases with their method names followed by 'TestFailed.jpg' as their file name.
 
-#Pages module
+# Pages module
 Contains all the necessary WebElements for the tests and all the helper functions for execution of a test case.
 
-##Helper module
+## Helper module
 Contains a helper function for handling of calendars in the test cases.
 
-##Listener module
+## Listener module
 Excel.java file fetches information from the excel sheet regarding the execution modes of the test cases. (Yes if you want to run the test case and No of not). MethodInterceptor.java contains the code required for execuiton of only the test cases marked as "yes" by the end user.
 
-##Util module
+## Util module
 1. ScreenShots.java : This file returns the location where the screenshot of any failed test case is stored.
 1. ExcelDataFetch.java : This file fetches data for all test cases from the Excel sheet based on sheet name, column name and row number.
 1. WebDriverContorl.java : Helper function for initializing web driver according to config.properties file.
 
-##tests module
+## tests module
 Contains all the test scenarios.
 
-##data.xlsx
+## data.xlsx
 * This is the excel sheet which contains all the test data. User can change the ExecutionRequired column of the first worksheet to decide which test cases to run. 
 * 'Yes' means the test will execute and 'No' means a test won't execute.
 
-##Jenkins  module
+## Jenkins  module
 * The test has been integrated with github and jenkins.
 * To integrate with jenkins use : https://github.com/rohanchoudharyy/AutomationQA2021.git
 * A screenshot of the jenkins integration is present in the project directory.
 * A word file explaining all the steps for jenkins integration is present in the project directory.
 
-##Docker  module
+## Docker  module
 Steps to set up docker:
 1. Install docker in your system
 2. Pull the following docker images :
@@ -137,7 +137,7 @@ Steps to set up docker:
 9. To run the test cases on docker, set browser = chrome/firefox , headless = no and docker = true in the config.properties file.
 10. To run the test cases parallally in two browsers in docker : Use the contents of testNg_parallel_browser.xml file and comment lines 106 - 109 and uncomment lines 111 - 116 in the BaseTest.java files present in the tests module of src/test/java. A sample screenshot of running test cases parallally in two browsers is present in the project folder.
 
-##Problems
+## Problems
 1. Sometimes the test cases would fail as it won't be locate the WebElements. Please re-run the test in such cases.
 The project comes with a test_reports.html file, you may check the test reports before running any tests, to see how it should behave normally.
 2. I was able to run test cases parallaly in docker but when trying to run the test cases parallally in docker, there were a lot errors while running the test cases and it stops abruptly. 
