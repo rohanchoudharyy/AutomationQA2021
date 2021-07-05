@@ -1,28 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="24" total="26" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-04T17:36:18Z" name="Default suite" finished-at="2021-07-04T17:36:32Z" duration-ms="14064">
+  <suite started-at="2021-07-05T12:06:06Z" name="Suite" finished-at="2021-07-05T12:06:36Z" duration-ms="30396">
     <groups>
+      <group name="mobLink">
+        <method signature="AppLinkMobileTest.InvalidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" name="InvalidMobileAppLink" class="tests.AppLinkMobileTest"/>
+        <method signature="AppLinkMobileTest.ValidMobileAppLink()[pri:0, instance:tests.AppLinkMobileTest@3c9c0d96]" name="ValidMobileAppLink" class="tests.AppLinkMobileTest"/>
+      </group> <!-- mobLink -->
+      <group name="agent">
+        <method signature="AgentRegistrationTest.InvalidAgentRegistration()[pri:0, instance:tests.AgentRegistrationTest@7e6ef134]" name="InvalidAgentRegistration" class="tests.AgentRegistrationTest"/>
+      </group> <!-- agent -->
+      <group name="career">
+        <method signature="CareerPageTest.careerHiristLink()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" name="careerHiristLink" class="tests.CareerPageTest"/>
+        <method signature="CareerPageTest.careerLinkedIn()[pri:0, instance:tests.CareerPageTest@4ed5eb72]" name="careerLinkedIn" class="tests.CareerPageTest"/>
+      </group> <!-- career -->
+      <group name="search">
+        <method signature="HomePageSearchTest.busTicketPageMenu()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" name="busTicketPageMenu" class="tests.HomePageSearchTest"/>
+        <method signature="HomePageSearchTest.homePageSearch()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" name="homePageSearch" class="tests.HomePageSearchTest"/>
+        <method signature="HomePageSearchTest.modifySearch()[pri:0, instance:tests.HomePageSearchTest@12f9af83]" name="modifySearch" class="tests.HomePageSearchTest"/>
+        <method signature="OperatorSearch.OperatorSearchBus()[pri:0, instance:tests.OperatorSearch@40db2a24]" name="OperatorSearchBus" class="tests.OperatorSearch"/>
+        <method signature="OperatorSearch.OperatorSearchBusDifferentName()[pri:0, instance:tests.OperatorSearch@40db2a24]" name="OperatorSearchBusDifferentName" class="tests.OperatorSearch"/>
+      </group> <!-- search -->
+      <group name="rPool">
+        <method signature="RPoolAppDownloadTest.androidAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" name="androidAppLink" class="tests.RPoolAppDownloadTest"/>
+        <method signature="RPoolAppDownloadTest.iosAppLink()[pri:0, instance:tests.RPoolAppDownloadTest@3a4621bd]" name="iosAppLink" class="tests.RPoolAppDownloadTest"/>
+      </group> <!-- rPool -->
+      <group name="social">
+        <method signature="SocialMediaTest.fbCheck()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" name="fbCheck" class="tests.SocialMediaTest"/>
+        <method signature="SocialMediaTest.twitterCheck()[pri:0, instance:tests.SocialMediaTest@10cf09e8]" name="twitterCheck" class="tests.SocialMediaTest"/>
+      </group> <!-- social -->
+      <group name="contact">
+        <method signature="ContactUsTest.ContactUsPhone()[pri:0, instance:tests.ContactUsTest@19b93fa8]" name="ContactUsPhone" class="tests.ContactUsTest"/>
+        <method signature="ContactUsTest.ContactUsSupport()[pri:0, instance:tests.ContactUsTest@19b93fa8]" name="ContactUsSupport" class="tests.ContactUsTest"/>
+      </group> <!-- contact -->
+      <group name="faq">
+        <method signature="FAQTest.FaqPage()[pri:0, instance:tests.FAQTest@6eb2384f]" name="FaqPage" class="tests.FAQTest"/>
+      </group> <!-- faq -->
       <group name="manage_booking">
-        <method signature="ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@4426bff1]" name="InvalidEmailSms" class="tests.ManageBookingTest"/>
+        <method signature="ManageBookingTest.InvalidCancelTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" name="InvalidCancelTicket" class="tests.ManageBookingTest"/>
+        <method signature="ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" name="InvalidEmailSms" class="tests.ManageBookingTest"/>
+        <method signature="ManageBookingTest.InvalidShowMyTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" name="InvalidShowMyTicket" class="tests.ManageBookingTest"/>
+        <method signature="ManageBookingTest.InvalidchangeTravelDate()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" name="InvalidchangeTravelDate" class="tests.ManageBookingTest"/>
       </group> <!-- manage_booking -->
+      <group name="privacy">
+        <method signature="PrivacyLinkTest.privacyLink()[pri:0, instance:tests.PrivacyLinkTest@73194df]" name="privacyLink" class="tests.PrivacyLinkTest"/>
+      </group> <!-- privacy -->
+      <group name="global">
+        <method signature="GlobalSitesTest.ColombiaSite()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" name="ColombiaSite" class="tests.GlobalSitesTest"/>
+        <method signature="GlobalSitesTest.SingaporeSite()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" name="SingaporeSite" class="tests.GlobalSitesTest"/>
+      </group> <!-- global -->
+      <group name="login">
+        <method signature="LoginTest.InvalidLogin()[pri:0, instance:tests.LoginTest@31dadd46]" name="InvalidLogin" class="tests.LoginTest"/>
+        <method signature="LoginTest.ValidLogin()[pri:0, instance:tests.LoginTest@31dadd46]" name="ValidLogin" class="tests.LoginTest"/>
+      </group> <!-- login -->
     </groups>
-    <test started-at="2021-07-04T17:36:18Z" name="Default test" finished-at="2021-07-04T17:36:32Z" duration-ms="14064">
+    <test started-at="2021-07-05T12:06:06Z" name="Test" finished-at="2021-07-05T12:06:36Z" duration-ms="30396">
       <class name="tests.ManageBookingTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:18Z" name="setExtent" finished-at="2021-07-04T17:36:18Z" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:18Z" name="initWebDriver" finished-at="2021-07-04T17:36:23Z" duration-ms="4363" status="PASS">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:08Z" name="initWebDriver" finished-at="2021-07-05T12:06:15Z" duration-ms="7855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:23Z" name="openBrowser" finished-at="2021-07-04T17:36:25Z" duration-ms="2676" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:15Z" name="openBrowser" finished-at="2021-07-05T12:06:17Z" duration-ms="1958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:25Z" name="startTest" finished-at="2021-07-04T17:36:25Z" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:17Z" name="startTest" finished-at="2021-07-05T12:06:17Z" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,41 +76,96 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:25Z" name="InvalidEmailSms" finished-at="2021-07-04T17:36:30Z" duration-ms="4477" status="PASS">
+        <test-method signature="InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:17Z" name="InvalidEmailSms" finished-at="2021-07-05T12:06:20Z" duration-ms="2500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidEmailSms -->
-        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:30Z" name="Logger" finished-at="2021-07-04T17:36:30Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:20Z" name="Logger" finished-at="2021-07-05T12:06:20Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InvalidEmailSms status=SUCCESS method=ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@4426bff1] output={null}]]]>
+                <![CDATA[[TestResult name=InvalidEmailSms status=SUCCESS method=ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@1f010bf0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logger -->
-        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:30Z" name="attachScreenShot" finished-at="2021-07-04T17:36:30Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:20Z" name="attachScreenShot" finished-at="2021-07-05T12:06:20Z" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InvalidEmailSms status=SUCCESS method=ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@4426bff1] output={null}]]]>
+                <![CDATA[[TestResult name=InvalidEmailSms status=SUCCESS method=ManageBookingTest.InvalidEmailSms()[pri:0, instance:tests.ManageBookingTest@1f010bf0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenShot -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:30Z" name="closeBrowser" finished-at="2021-07-04T17:36:32Z" duration-ms="2514" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:20Z" name="closeBrowser" finished-at="2021-07-05T12:06:24Z" duration-ms="4170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.ManageBookingTest@4426bff1]" started-at="2021-07-04T17:36:32Z" name="endReport" finished-at="2021-07-04T17:36:33Z" duration-ms="486" status="PASS">
+        <test-method is-config="true" signature="initWebDriver()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:24Z" name="initWebDriver" finished-at="2021-07-05T12:06:29Z" duration-ms="4933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:29Z" name="openBrowser" finished-at="2021-07-05T12:06:31Z" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:31Z" name="startTest" finished-at="2021-07-05T12:06:31Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ManageBookingTest.InvalidShowMyTicket() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InvalidShowMyTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:31Z" name="InvalidShowMyTicket" finished-at="2021-07-05T12:06:33Z" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidShowMyTicket -->
+        <test-method is-config="true" signature="Logger(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:33Z" name="Logger" finished-at="2021-07-05T12:06:33Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidShowMyTicket status=SUCCESS method=ManageBookingTest.InvalidShowMyTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logger -->
+        <test-method is-config="true" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:33Z" name="attachScreenShot" finished-at="2021-07-05T12:06:33Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidShowMyTicket status=SUCCESS method=ManageBookingTest.InvalidShowMyTicket()[pri:0, instance:tests.ManageBookingTest@1f010bf0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.ManageBookingTest@1f010bf0]" started-at="2021-07-05T12:06:33Z" name="closeBrowser" finished-at="2021-07-05T12:06:36Z" duration-ms="3793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.ManageBookingTest -->
+      <class name="tests.GlobalSitesTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T12:06:06Z" name="setExtent" finished-at="2021-07-05T12:06:06Z" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.GlobalSitesTest@32a68f4f]" started-at="2021-07-05T12:06:36Z" name="endReport" finished-at="2021-07-05T12:06:37Z" duration-ms="515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- tests.ManageBookingTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tests.GlobalSitesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
